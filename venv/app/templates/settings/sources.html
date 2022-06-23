@@ -1,0 +1,45 @@
+{% extends '/settings/settings.html' %}
+{% block head %}
+    <title>{{ table|capitalize }} Management</title>
+{% endblock %}
+{% block settings_page %}
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{{ table|capitalize }} Settings</h4>
+        </div>
+        <table class="table table-bordered text-center">
+            <thead>
+                <tr>
+                    {% for column in settings["fields"] %}
+                        {% if column["Field"] in ("id", "comments") %}
+                        {% else %}
+                            <td>{{ column["Field"]|capitalize }}</td>
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for source in settings[table] %}
+                    <tr>
+                        {% for column in settings["fields"] %}
+                            {% if column["Field"] in ("id", "comments") %}
+                            {% elif column["Field"] == "state" %}
+                                <td>
+                                    {% if source[column["Field"]] %}
+                                        <button type="button" class="btn btn-danger mdi mdi-account-off" onclick="window.location.href='/settings/update/sources/state/0/id/{{ source['id'] }}'"></button>
+                                    {% else %}
+                                        <button type="button" class="btn btn-success mdi mdi-account-check" onclick="window.location.href='/settings/update/sources/state/1/id/{{ source['id'] }}'"></button>
+                                    {% endif %}
+                                </td>
+                             {% else %}
+                                <td>
+                                    <input type="text" class="form-control" name="{{ column['Field'] }}" value="{{ source[column["Field"]] }}" onchange="settings_update('sources','{{ column['Field'] }}',this.value,'id',{{ source['id'] }})">
+                                </td>
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

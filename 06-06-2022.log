@@ -1,0 +1,734 @@
+2022-06-06 01:04:47,256 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-06 01:04:47,257 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:04:47,828 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:04:47,837 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:04:53,807 INFO app.main Thread-2 : 127.0.0.1; /; view_dashboard; Database Error; Unknown Error with Session Token
+2022-06-06 01:04:53,808 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:04:53] "[32mGET / HTTP/1.1[0m" 302 -
+2022-06-06 01:04:54,039 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:04:54,316 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:04:54,333 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:04:54,334 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:04:54,334 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:04:54,502 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:04:54,563 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:04:54,569 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:04:54,569 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:04:54,821 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:04:54,827 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Jun/2022 01:04:54] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:05:07,307 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Jun/2022 01:05:07] "[32mGET /feedback HTTP/1.1[0m" 302 -
+2022-06-06 01:05:07,443 INFO app.main Thread-15 : 127.0.0.1; /authentication/logout; controller_logout; Database Error; Unknown Error with Session Token
+2022-06-06 01:05:07,444 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Jun/2022 01:05:07] "[32mGET /authentication/logout HTTP/1.1[0m" 302 -
+2022-06-06 01:05:07,613 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Jun/2022 01:05:07] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:05:07,790 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Jun/2022 01:05:07] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:05:07,842 INFO werkzeug Thread-19 : 127.0.0.1 - - [06/Jun/2022 01:05:07] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:05:07,846 INFO werkzeug Thread-18 : 127.0.0.1 - - [06/Jun/2022 01:05:07] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:05:07,848 INFO werkzeug Thread-20 : 127.0.0.1 - - [06/Jun/2022 01:05:07] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:05:07,960 INFO werkzeug Thread-21 : 127.0.0.1 - - [06/Jun/2022 01:05:07] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:05:07,961 INFO werkzeug Thread-22 : 127.0.0.1 - - [06/Jun/2022 01:05:07] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:05:08,007 INFO werkzeug Thread-23 : 127.0.0.1 - - [06/Jun/2022 01:05:08] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:05:08,008 INFO werkzeug Thread-24 : 127.0.0.1 - - [06/Jun/2022 01:05:08] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:05:08,266 INFO werkzeug Thread-26 : 127.0.0.1 - - [06/Jun/2022 01:05:08] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:05:08,314 INFO werkzeug Thread-25 : 127.0.0.1 - - [06/Jun/2022 01:05:08] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:06:44,608 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:06:44,660 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:06:45,254 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:06:45,260 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:06:50,291 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:06:50,344 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:06:50,882 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:06:50,888 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:06:52,704 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:06:52] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:06:52,922 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:06:52] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:06:52,935 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:06:52] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:06:52,942 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:06:52] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:06:52,949 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:06:52] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:06:53,077 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:06:53] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:06:53,077 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:06:53] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:06:53,087 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:06:53] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:06:53,227 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:06:53] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:06:53,230 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:06:53] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:06:53,248 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Jun/2022 01:06:53] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:06:53,464 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Jun/2022 01:06:53] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:07:00,094 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Jun/2022 01:07:00] "[35m[1mGET /feedback HTTP/1.1[0m" 500 -
+2022-06-06 01:07:00,374 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Jun/2022 01:07:00] "GET /feedback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-06-06 01:07:00,396 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Jun/2022 01:07:00] "GET /feedback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-06-06 01:07:00,594 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Jun/2022 01:07:00] "GET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-06-06 01:07:00,758 INFO werkzeug Thread-18 : 127.0.0.1 - - [06/Jun/2022 01:07:00] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-06 01:07:31,167 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:07:31,219 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:07:31,777 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:07:31,788 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:07:32,797 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:07:32,844 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:07:33,338 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:07:33,344 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:07:36,367 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:07:36,421 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:07:36,784 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:07:36,789 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:07:37,801 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:07:37,861 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:07:38,340 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:07:38,344 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:07:40,444 INFO app.main Thread-2 : 127.0.0.1; /feedback; view_contact_us; 404; Not Found; The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022-06-06 01:07:40,447 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:07:40] "GET /feedback HTTP/1.1" 200 -
+2022-06-06 01:07:40,894 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:07:40] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:07:40,900 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:07:40] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:07:40,902 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:07:40] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:07:40,924 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:07:40] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:07:41,073 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:07:41] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:07:41,075 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:07:41] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:07:41,076 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:07:41] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:07:41,283 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:07:41] "[35m[1mGET /assets/images/background/error-bg.jpg HTTP/1.1[0m" 500 -
+2022-06-06 01:07:41,560 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:07:41] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:08:43,778 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:08:43,814 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:08:44,457 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:08:44,463 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:08:54,643 INFO app.main Thread-2 : 127.0.0.1; /feedback; view_contact_us; 404
+2022-06-06 01:08:54,645 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:08:54] "GET /feedback HTTP/1.1" 200 -
+2022-06-06 01:08:54,779 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:08:54] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:08:54,784 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:08:54] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:08:54,829 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:08:54] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:08:54,830 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:08:54] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:08:54,898 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:08:54] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:08:54,902 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:08:54] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:08:54,903 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:08:54] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:08:55,034 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:08:55] "[35m[1mGET /assets/images/background/error-bg.jpg HTTP/1.1[0m" 500 -
+2022-06-06 01:09:33,761 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:09:33,821 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:10:01,816 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-06 01:10:01,817 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:10:02,389 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:10:02,395 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:10:04,670 INFO app.main Thread-2 : 127.0.0.1; /feedback; view_contact_us; 404
+2022-06-06 01:10:04,673 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:10:04] "GET /feedback HTTP/1.1" 200 -
+2022-06-06 01:10:04,812 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:10:04] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:10:04,812 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:10:04] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:10:04,829 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:10:04] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:10:04,860 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:10:04] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:10:04,928 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:10:04] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:10:04,930 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:10:04] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:10:04,933 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:10:04] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:10:05,166 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:10:05] "[35m[1mGET /assets/images/background/error-bg.jpg HTTP/1.1[0m" 500 -
+2022-06-06 01:10:05,341 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:10:05] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:10:13,474 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:10:13,537 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:10:14,062 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:10:14,067 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:10:16,337 INFO app.main Thread-2 : 127.0.0.1; /feedback; view_contact_us; 404
+2022-06-06 01:10:16,339 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:10:16] "GET /feedback HTTP/1.1" 200 -
+2022-06-06 01:10:16,586 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:10:16] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:10:16,592 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:10:16] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:10:16,595 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:10:16] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:10:16,631 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:10:16] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:10:16,738 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:10:16] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:10:16,745 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:10:16] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:10:16,746 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:10:16] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:10:16,948 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:10:16] "[35m[1mGET /assets/images/background/error-bg.jpg HTTP/1.1[0m" 500 -
+2022-06-06 01:10:17,143 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:10:17] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:10:41,253 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:10:41,303 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:10:41,769 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:10:41,773 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:10:43,793 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:10:43,853 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:11:48,542 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-06 01:11:48,543 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:11:49,056 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:11:49,062 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:11:49,833 INFO app.main Thread-2 : 127.0.0.1; /feedback; view_contact_us; 404
+2022-06-06 01:11:49,836 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:11:49] "GET /feedback HTTP/1.1" 200 -
+2022-06-06 01:11:50,034 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:11:50] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:11:50,041 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:11:50] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:11:50,086 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:11:50] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:11:50,099 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:11:50] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:11:50,198 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:11:50] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:11:50,198 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:11:50] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:11:50,199 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:11:50] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:11:50,539 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:11:50] "[35m[1mGET /assets/images/background/error-bg.jpg HTTP/1.1[0m" 500 -
+2022-06-06 01:11:50,819 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:11:50] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:12:11,230 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:12:11,289 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:12:11,715 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:12:11,721 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:12:12,509 INFO app.main Thread-2 : 127.0.0.1; /feedback; view_contact_us; 404
+2022-06-06 01:12:12,512 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:12:12] "GET /feedback HTTP/1.1" 200 -
+2022-06-06 01:12:12,645 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:12:12] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:12,704 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:12:12] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:12:12,713 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:12:12] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:12:12,716 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:12:12] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:12:12,787 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:12:12] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:12,792 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:12:12] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:12,826 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:12:12] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:13,012 INFO app.main Thread-10 : 127.0.0.1; 404
+2022-06-06 01:12:13,015 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:12:13] "GET /assets/images/background/error-bg.jpg HTTP/1.1" 200 -
+2022-06-06 01:12:13,188 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:12:13] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:12:28,841 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:12:28,899 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:12:45,882 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-06 01:12:45,883 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:12:46,324 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:12:46,329 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:12:47,297 INFO app.main Thread-2 : 127.0.0.1; /feedback; view_contact_us; 404
+2022-06-06 01:12:47,301 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:12:47] "GET /feedback HTTP/1.1" 200 -
+2022-06-06 01:12:47,437 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:12:47] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:47,438 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:12:47] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:12:47,447 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:12:47] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:12:47,481 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:12:47] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:12:47,553 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:12:47] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:47,553 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:12:47] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:47,554 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:12:47] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:47,729 INFO app.main Thread-10 : 127.0.0.1; 404
+2022-06-06 01:12:47,732 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:12:47] "GET /assets/images/background/error-bg.jpg HTTP/1.1" 200 -
+2022-06-06 01:12:47,917 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:12:47] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:12:52,627 INFO app.main Thread-12 : 127.0.0.1; /feedback; view_contact_us; 404
+2022-06-06 01:12:52,630 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Jun/2022 01:12:52] "GET /feedback HTTP/1.1" 200 -
+2022-06-06 01:12:52,772 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Jun/2022 01:12:52] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:52,773 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Jun/2022 01:12:52] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:12:52,784 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Jun/2022 01:12:52] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:12:52,788 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Jun/2022 01:12:52] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:12:52,944 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Jun/2022 01:12:52] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:52,958 INFO werkzeug Thread-18 : 127.0.0.1 - - [06/Jun/2022 01:12:52] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:52,967 INFO werkzeug Thread-19 : 127.0.0.1 - - [06/Jun/2022 01:12:52] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:12:53,184 INFO app.main Thread-20 : 127.0.0.1; 404
+2022-06-06 01:12:53,187 INFO werkzeug Thread-20 : 127.0.0.1 - - [06/Jun/2022 01:12:53] "GET /assets/images/background/error-bg.jpg HTTP/1.1" 200 -
+2022-06-06 01:12:53,389 INFO werkzeug Thread-21 : 127.0.0.1 - - [06/Jun/2022 01:12:53] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:15:15,575 INFO app.main Thread-22 : 127.0.0.1; /authentication/logout; controller_logout; Database Error; Unknown Error with Session Token
+2022-06-06 01:15:15,577 INFO werkzeug Thread-22 : 127.0.0.1 - - [06/Jun/2022 01:15:15] "[32mGET /authentication/logout HTTP/1.1[0m" 302 -
+2022-06-06 01:15:15,709 INFO werkzeug Thread-23 : 127.0.0.1 - - [06/Jun/2022 01:15:15] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:15:15,966 INFO werkzeug Thread-24 : 127.0.0.1 - - [06/Jun/2022 01:15:15] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:15,967 INFO werkzeug Thread-25 : 127.0.0.1 - - [06/Jun/2022 01:15:15] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:15,968 INFO werkzeug Thread-26 : 127.0.0.1 - - [06/Jun/2022 01:15:15] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:16,020 INFO werkzeug Thread-27 : 127.0.0.1 - - [06/Jun/2022 01:15:16] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:16,129 INFO werkzeug Thread-28 : 127.0.0.1 - - [06/Jun/2022 01:15:16] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:15:16,135 INFO werkzeug Thread-29 : 127.0.0.1 - - [06/Jun/2022 01:15:16] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:16,142 INFO werkzeug Thread-30 : 127.0.0.1 - - [06/Jun/2022 01:15:16] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:16,147 INFO werkzeug Thread-31 : 127.0.0.1 - - [06/Jun/2022 01:15:16] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:16,322 INFO werkzeug Thread-32 : 127.0.0.1 - - [06/Jun/2022 01:15:16] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:15:16,328 INFO werkzeug Thread-33 : 127.0.0.1 - - [06/Jun/2022 01:15:16] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:15:24,899 INFO app.main Thread-34 : 127.0.0.1; /feedback; view_contact_us; 404
+2022-06-06 01:15:24,903 INFO werkzeug Thread-34 : 127.0.0.1 - - [06/Jun/2022 01:15:24] "GET /feedback HTTP/1.1" 200 -
+2022-06-06 01:15:25,034 INFO werkzeug Thread-35 : 127.0.0.1 - - [06/Jun/2022 01:15:25] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:25,040 INFO werkzeug Thread-36 : 127.0.0.1 - - [06/Jun/2022 01:15:25] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:25,094 INFO werkzeug Thread-37 : 127.0.0.1 - - [06/Jun/2022 01:15:25] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:25,097 INFO werkzeug Thread-38 : 127.0.0.1 - - [06/Jun/2022 01:15:25] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:27,461 INFO werkzeug Thread-40 : 127.0.0.1 - - [06/Jun/2022 01:15:27] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:27,462 INFO werkzeug Thread-39 : 127.0.0.1 - - [06/Jun/2022 01:15:27] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:27,506 INFO werkzeug Thread-41 : 127.0.0.1 - - [06/Jun/2022 01:15:27] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:27,512 INFO werkzeug Thread-42 : 127.0.0.1 - - [06/Jun/2022 01:15:27] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:27,651 INFO werkzeug Thread-43 : 127.0.0.1 - - [06/Jun/2022 01:15:27] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:27,664 INFO werkzeug Thread-44 : 127.0.0.1 - - [06/Jun/2022 01:15:27] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:27,666 INFO werkzeug Thread-45 : 127.0.0.1 - - [06/Jun/2022 01:15:27] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:27,812 INFO app.main Thread-46 : 127.0.0.1; 404
+2022-06-06 01:15:27,815 INFO werkzeug Thread-46 : 127.0.0.1 - - [06/Jun/2022 01:15:27] "GET /assets/images/background/error-bg.jpg HTTP/1.1" 200 -
+2022-06-06 01:15:30,863 INFO app.main Thread-47 : 127.0.0.1; /authentication/logout; controller_logout; Database Error; Unknown Error with Session Token
+2022-06-06 01:15:30,864 INFO werkzeug Thread-47 : 127.0.0.1 - - [06/Jun/2022 01:15:30] "[32mGET /authentication/logout HTTP/1.1[0m" 302 -
+2022-06-06 01:15:30,985 INFO werkzeug Thread-48 : 127.0.0.1 - - [06/Jun/2022 01:15:30] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:15:31,115 INFO werkzeug Thread-49 : 127.0.0.1 - - [06/Jun/2022 01:15:31] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:31,123 INFO werkzeug Thread-51 : 127.0.0.1 - - [06/Jun/2022 01:15:31] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:31,130 INFO werkzeug Thread-52 : 127.0.0.1 - - [06/Jun/2022 01:15:31] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:31,163 INFO werkzeug Thread-50 : 127.0.0.1 - - [06/Jun/2022 01:15:31] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:15:31,267 INFO werkzeug Thread-53 : 127.0.0.1 - - [06/Jun/2022 01:15:31] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:31,272 INFO werkzeug Thread-54 : 127.0.0.1 - - [06/Jun/2022 01:15:31] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:31,288 INFO werkzeug Thread-55 : 127.0.0.1 - - [06/Jun/2022 01:15:31] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:15:31,452 INFO werkzeug Thread-56 : 127.0.0.1 - - [06/Jun/2022 01:15:31] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:15:31,550 INFO werkzeug Thread-57 : 127.0.0.1 - - [06/Jun/2022 01:15:31] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:15:31,589 INFO werkzeug Thread-58 : 127.0.0.1 - - [06/Jun/2022 01:15:31] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:16:31,856 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:16:31,920 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:16:32,269 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:16:32,275 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:16:47,361 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:16:47,417 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:16:47,853 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:16:47,859 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:16:48,919 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:16:48] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:16:49,105 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:16:49] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:16:49,106 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:16:49] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:16:49,157 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:16:49] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:16:49,158 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:16:49] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:16:49,229 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:16:49] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:16:49,233 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:16:49] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:16:49,233 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:16:49] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:16:49,424 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:16:49] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:16:49,459 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:16:49] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:16:49,476 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Jun/2022 01:16:49] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:16:50,090 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Jun/2022 01:16:50] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:16:55,558 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Jun/2022 01:16:55] "[32mPOST /authentication/login/send HTTP/1.1[0m" 302 -
+2022-06-06 01:16:55,697 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Jun/2022 01:16:55] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:16:55,878 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Jun/2022 01:16:55] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:16:55,888 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Jun/2022 01:16:55] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:16:55,891 INFO werkzeug Thread-18 : 127.0.0.1 - - [06/Jun/2022 01:16:55] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:16:55,930 INFO werkzeug Thread-19 : 127.0.0.1 - - [06/Jun/2022 01:16:55] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:16:56,038 INFO werkzeug Thread-21 : 127.0.0.1 - - [06/Jun/2022 01:16:56] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:16:56,039 INFO werkzeug Thread-22 : 127.0.0.1 - - [06/Jun/2022 01:16:56] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:16:56,047 INFO werkzeug Thread-20 : 127.0.0.1 - - [06/Jun/2022 01:16:56] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:16:56,188 INFO werkzeug Thread-23 : 127.0.0.1 - - [06/Jun/2022 01:16:56] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:16:56,198 INFO werkzeug Thread-24 : 127.0.0.1 - - [06/Jun/2022 01:16:56] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:16:56,209 INFO werkzeug Thread-25 : 127.0.0.1 - - [06/Jun/2022 01:16:56] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:17:07,324 INFO werkzeug Thread-26 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[32mPOST /authentication/login/send HTTP/1.1[0m" 302 -
+2022-06-06 01:17:07,445 INFO werkzeug Thread-27 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:17:07,629 INFO werkzeug Thread-28 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:17:07,634 INFO werkzeug Thread-29 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:17:07,645 INFO werkzeug Thread-30 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:17:07,676 INFO werkzeug Thread-31 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:17:07,748 INFO werkzeug Thread-32 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:17:07,748 INFO werkzeug Thread-33 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:17:07,762 INFO werkzeug Thread-34 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:17:07,861 INFO werkzeug Thread-35 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:17:07,896 INFO werkzeug Thread-36 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:17:07,897 INFO werkzeug Thread-37 : 127.0.0.1 - - [06/Jun/2022 01:17:07] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:18:05,061 INFO werkzeug Thread-38 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[32mPOST /authentication/login/send HTTP/1.1[0m" 302 -
+2022-06-06 01:18:05,208 INFO werkzeug Thread-39 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:18:05,390 INFO werkzeug Thread-40 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:18:05,393 INFO werkzeug Thread-42 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:18:05,395 INFO werkzeug Thread-41 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:18:05,451 INFO werkzeug Thread-43 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:18:05,546 INFO werkzeug Thread-44 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:18:05,548 INFO werkzeug Thread-45 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:18:05,561 INFO werkzeug Thread-46 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:18:05,670 INFO werkzeug Thread-47 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:18:05,719 INFO werkzeug Thread-49 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:18:05,720 INFO werkzeug Thread-48 : 127.0.0.1 - - [06/Jun/2022 01:18:05] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:18:29,041 INFO werkzeug Thread-50 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[32mPOST /authentication/login/send HTTP/1.1[0m" 302 -
+2022-06-06 01:18:29,152 INFO werkzeug Thread-51 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:18:29,595 INFO werkzeug Thread-52 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:18:29,602 INFO werkzeug Thread-53 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:18:29,604 INFO werkzeug Thread-54 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:18:29,634 INFO werkzeug Thread-55 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:18:29,747 INFO werkzeug Thread-56 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:18:29,748 INFO werkzeug Thread-57 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:18:29,751 INFO werkzeug Thread-58 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:18:29,780 INFO werkzeug Thread-59 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:18:29,955 INFO werkzeug Thread-60 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:18:29,991 INFO werkzeug Thread-61 : 127.0.0.1 - - [06/Jun/2022 01:18:29] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:18:45,030 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-06 01:18:45,031 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:18:45,499 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:18:45,505 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:19:28,802 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:19:28,849 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:19:29,259 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:19:29,264 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:19:29,720 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:19:29] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:19:29,859 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:19:29] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:19:29,889 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:19:29] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:19:29,909 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:19:29] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:19:29,909 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:19:29] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:19:30,024 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:19:30] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:19:30,071 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:19:30] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:19:30,080 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:19:30] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:19:30,197 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:19:30] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:19:30,224 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:19:30] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:19:30,249 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Jun/2022 01:19:30] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:19:30,508 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Jun/2022 01:19:30] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:19:36,130 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[32mPOST /authentication/login/send HTTP/1.1[0m" 302 -
+2022-06-06 01:19:36,308 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:19:36,486 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:19:36,490 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:19:36,490 INFO werkzeug Thread-18 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:19:36,492 INFO werkzeug Thread-19 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:19:36,601 INFO werkzeug Thread-20 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:19:36,649 INFO werkzeug Thread-21 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:19:36,651 INFO werkzeug Thread-22 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:19:36,807 INFO werkzeug Thread-23 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:19:36,907 INFO werkzeug Thread-25 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:19:36,935 INFO werkzeug Thread-24 : 127.0.0.1 - - [06/Jun/2022 01:19:36] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:20:06,507 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/database.py', reloading
+2022-06-06 01:20:06,550 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:20:06,969 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:20:06,974 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:20:14,701 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:20:14] "[32mPOST /authentication/login/send HTTP/1.1[0m" 302 -
+2022-06-06 01:20:14,858 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:20:14] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 01:20:15,006 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:20:15] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:20:15,051 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:20:15] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:20:15,051 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:20:15] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:20:15,052 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:20:15] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:20:15,187 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:20:15] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:20:15,214 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:20:15] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:20:15,215 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:20:15] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:20:15,218 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:20:15] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:20:15,482 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Jun/2022 01:20:15] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:20:15,491 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Jun/2022 01:20:15] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 01:20:25,097 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/database.py', reloading
+2022-06-06 01:20:25,137 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:20:25,752 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:20:25,757 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:20:29,789 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/database.py', reloading
+2022-06-06 01:20:29,838 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:20:30,441 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:20:30,447 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:20:33,474 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/database.py', reloading
+2022-06-06 01:20:33,534 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:20:34,092 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:20:34,098 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:20:42,147 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/database.py', reloading
+2022-06-06 01:20:42,192 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:20:42,755 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:20:42,759 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:21:20,269 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:21:20] "[32mPOST /authentication/login/send HTTP/1.1[0m" 302 -
+2022-06-06 01:21:20,566 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:21:20] "GET / HTTP/1.1" 200 -
+2022-06-06 01:21:20,764 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:21:20] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:21:20,792 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:21:20] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:21:20,802 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:21:20] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:21:20,831 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:21:20] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:21:21,639 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:21:21] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:21:21,641 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:21:21] "GET /static/assets/images/default_avatar.jpg HTTP/1.1" 200 -
+2022-06-06 01:21:21,682 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:21:21] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:21:21,688 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:21:21] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:21:21,688 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Jun/2022 01:21:21] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:21:22,142 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Jun/2022 01:21:22] "GET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1" 200 -
+2022-06-06 01:21:22,149 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Jun/2022 01:21:22] "GET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1" 200 -
+2022-06-06 01:21:34,737 INFO app.main Thread-15 : 127.0.0.1; /feedback; view_contact_us; 404
+2022-06-06 01:21:34,740 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Jun/2022 01:21:34] "GET /feedback HTTP/1.1" 200 -
+2022-06-06 01:21:35,090 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Jun/2022 01:21:35] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:21:35,100 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Jun/2022 01:21:35] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:21:35,153 INFO werkzeug Thread-19 : 127.0.0.1 - - [06/Jun/2022 01:21:35] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:21:35,157 INFO werkzeug Thread-18 : 127.0.0.1 - - [06/Jun/2022 01:21:35] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:21:35,285 INFO werkzeug Thread-20 : 127.0.0.1 - - [06/Jun/2022 01:21:35] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:21:35,286 INFO werkzeug Thread-21 : 127.0.0.1 - - [06/Jun/2022 01:21:35] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:21:35,332 INFO werkzeug Thread-22 : 127.0.0.1 - - [06/Jun/2022 01:21:35] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:21:35,540 INFO app.main Thread-23 : 127.0.0.1; 404
+2022-06-06 01:21:35,541 INFO werkzeug Thread-23 : 127.0.0.1 - - [06/Jun/2022 01:21:35] "GET /assets/images/background/error-bg.jpg HTTP/1.1" 200 -
+2022-06-06 01:22:14,387 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:22:14,446 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:22:15,025 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:22:15,031 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:22:19,053 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:22:19,095 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:22:19,620 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:22:19,625 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:22:24,659 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:22:24,705 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:22:25,192 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:22:25,198 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:22:35,277 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:22:35,312 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:22:35,669 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:22:35,675 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:22:49,771 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:22:49,831 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:22:50,218 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:22:50,223 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:22:54,260 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:22:54,318 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:22:54,795 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:22:54,801 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:22:55,814 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:22:55,875 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:22:56,382 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:22:56,387 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:22:56,468 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:22:56] "[35m[1mGET /feedback HTTP/1.1[0m" 500 -
+2022-06-06 01:22:56,629 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:22:56] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-06-06 01:22:56,640 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:22:56] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-06-06 01:22:56,847 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:22:56] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-06 01:22:57,049 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:22:57] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-06 01:24:08,506 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:24:08] "[35m[1mGET /feedback HTTP/1.1[0m" 500 -
+2022-06-06 01:24:08,980 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:24:08] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-06-06 01:24:08,986 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:24:08] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-06-06 01:24:09,161 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:24:09] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-06 01:24:09,299 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:24:09] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-06 01:24:19,938 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:24:19,988 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:24:20,409 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:24:20,416 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:24:25,448 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:24:25,502 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:24:25,954 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:24:25,960 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:24:28,991 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:24:29,052 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:24:29,438 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:24:29,444 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:24:30,456 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:24:30,513 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:24:30,863 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:24:30,867 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:24:33,891 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:24:33,951 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:24:34,451 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:24:34,457 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:24:37,483 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:24:37,514 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:24:37,842 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:24:37,847 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:24:40,497 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:24:40] "[35m[1mGET /feedback HTTP/1.1[0m" 500 -
+2022-06-06 01:24:40,704 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:24:40] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-06-06 01:24:40,730 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:24:40] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-06-06 01:24:40,872 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:24:40] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-06 01:24:40,992 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:24:40] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-06 01:25:12,095 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:25:12,152 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:25:12,544 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:25:12,549 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:25:15,089 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:25:15] "[35m[1mGET /feedback HTTP/1.1[0m" 500 -
+2022-06-06 01:25:15,327 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:25:15] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-06-06 01:25:15,359 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:25:15] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-06-06 01:25:15,555 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:25:15] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-06 01:25:15,749 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:25:15] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-06 01:25:37,722 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:25:37,777 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:25:38,165 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:25:38,170 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:25:44,216 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:25:44,289 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:25:44,728 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:25:44,733 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:25:45,087 INFO app.main Thread-2 : 127.0.0.1; /feedback; view_contact_us
+2022-06-06 01:25:45,090 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:25:45] "[32mGET /feedback HTTP/1.1[0m" 302 -
+2022-06-06 01:25:45,394 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:25:45] "GET / HTTP/1.1" 200 -
+2022-06-06 01:25:45,599 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:25:45] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:25:45,607 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:25:45] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:25:45,616 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:25:45] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:25:45,624 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:25:45] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:25:46,179 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:25:46] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:25:46,181 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:25:46] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:25:46,225 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:25:46] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:25:46,428 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:25:46] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:25:46,576 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Jun/2022 01:25:46] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-06 01:25:46,618 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Jun/2022 01:25:46] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-06 01:25:46,651 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Jun/2022 01:25:46] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-06 01:25:47,003 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Jun/2022 01:25:47] "[36mGET /static/assets/images/favicon.png HTTP/1.1[0m" 304 -
+2022-06-06 01:25:52,291 INFO app.main Thread-16 : 127.0.0.1; /feedback; view_contact_us
+2022-06-06 01:25:52,292 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Jun/2022 01:25:52] "[32mGET /feedback HTTP/1.1[0m" 302 -
+2022-06-06 01:25:52,439 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Jun/2022 01:25:52] "GET / HTTP/1.1" 200 -
+2022-06-06 01:25:52,769 INFO werkzeug Thread-19 : 127.0.0.1 - - [06/Jun/2022 01:25:52] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:25:52,772 INFO werkzeug Thread-18 : 127.0.0.1 - - [06/Jun/2022 01:25:52] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:25:52,817 INFO werkzeug Thread-20 : 127.0.0.1 - - [06/Jun/2022 01:25:52] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:25:52,819 INFO werkzeug Thread-21 : 127.0.0.1 - - [06/Jun/2022 01:25:52] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:25:52,966 INFO werkzeug Thread-22 : 127.0.0.1 - - [06/Jun/2022 01:25:52] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:25:52,970 INFO werkzeug Thread-24 : 127.0.0.1 - - [06/Jun/2022 01:25:52] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:25:52,977 INFO werkzeug Thread-23 : 127.0.0.1 - - [06/Jun/2022 01:25:52] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:25:53,155 INFO werkzeug Thread-25 : 127.0.0.1 - - [06/Jun/2022 01:25:53] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:25:53,160 INFO werkzeug Thread-26 : 127.0.0.1 - - [06/Jun/2022 01:25:53] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-06 01:25:53,199 INFO werkzeug Thread-27 : 127.0.0.1 - - [06/Jun/2022 01:25:53] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-06 01:25:53,206 INFO werkzeug Thread-28 : 127.0.0.1 - - [06/Jun/2022 01:25:53] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-06 01:26:04,963 INFO app.main Thread-29 : 127.0.0.1; /feedback; view_contact_us
+2022-06-06 01:26:04,964 INFO werkzeug Thread-29 : 127.0.0.1 - - [06/Jun/2022 01:26:04] "[32mGET /feedback HTTP/1.1[0m" 302 -
+2022-06-06 01:26:05,221 INFO werkzeug Thread-30 : 127.0.0.1 - - [06/Jun/2022 01:26:05] "GET / HTTP/1.1" 200 -
+2022-06-06 01:26:05,405 INFO werkzeug Thread-31 : 127.0.0.1 - - [06/Jun/2022 01:26:05] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:26:05,421 INFO werkzeug Thread-32 : 127.0.0.1 - - [06/Jun/2022 01:26:05] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:26:05,436 INFO werkzeug Thread-33 : 127.0.0.1 - - [06/Jun/2022 01:26:05] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:26:05,436 INFO werkzeug Thread-34 : 127.0.0.1 - - [06/Jun/2022 01:26:05] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:26:05,687 INFO werkzeug Thread-35 : 127.0.0.1 - - [06/Jun/2022 01:26:05] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-06 01:26:05,691 INFO werkzeug Thread-37 : 127.0.0.1 - - [06/Jun/2022 01:26:05] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:26:05,692 INFO werkzeug Thread-38 : 127.0.0.1 - - [06/Jun/2022 01:26:05] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:26:05,692 INFO werkzeug Thread-36 : 127.0.0.1 - - [06/Jun/2022 01:26:05] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:26:05,694 INFO werkzeug Thread-39 : 127.0.0.1 - - [06/Jun/2022 01:26:05] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:26:06,017 INFO werkzeug Thread-40 : 127.0.0.1 - - [06/Jun/2022 01:26:06] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-06 01:26:06,031 INFO werkzeug Thread-41 : 127.0.0.1 - - [06/Jun/2022 01:26:06] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-06 01:27:36,475 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:27:36,519 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:27:37,033 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:27:37,039 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:27:39,055 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:27:39,112 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:27:39,548 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:27:39,556 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:27:46,610 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-06 01:27:46,648 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 01:27:47,209 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 01:27:47,222 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 01:27:50,378 INFO app.main Thread-2 : 127.0.0.1; /feedback; view_contact_us
+2022-06-06 01:27:50,379 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 01:27:50] "[32mGET /feedback HTTP/1.1[0m" 302 -
+2022-06-06 01:27:50,702 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 01:27:50] "GET / HTTP/1.1" 200 -
+2022-06-06 01:27:51,061 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:27:51,062 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:27:51,113 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:27:51,123 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 01:27:51,361 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 01:27:51,366 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 01:27:51,366 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 01:27:51,710 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 01:27:51,713 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-06 01:27:51,733 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-06 01:27:51,763 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Jun/2022 01:27:51] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-06 10:28:33,382 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-06 10:28:33,383 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-06 10:28:33,938 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-06 10:28:33,944 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-06 10:29:05,008 INFO app.main Thread-2 : 127.0.0.1; /; view_dashboard; Access Restriction; Authorize to access that page
+2022-06-06 10:29:05,013 INFO werkzeug Thread-2 : 127.0.0.1 - - [06/Jun/2022 10:29:05] "[32mGET / HTTP/1.1[0m" 302 -
+2022-06-06 10:29:05,217 INFO werkzeug Thread-3 : 127.0.0.1 - - [06/Jun/2022 10:29:05] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-06 10:29:05,365 INFO werkzeug Thread-4 : 127.0.0.1 - - [06/Jun/2022 10:29:05] "GET /static/dist/css/style.min.css HTTP/1.1" 200 -
+2022-06-06 10:29:05,368 INFO werkzeug Thread-5 : 127.0.0.1 - - [06/Jun/2022 10:29:05] "GET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-06-06 10:29:05,370 INFO werkzeug Thread-6 : 127.0.0.1 - - [06/Jun/2022 10:29:05] "GET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1" 200 -
+2022-06-06 10:29:05,388 INFO werkzeug Thread-7 : 127.0.0.1 - - [06/Jun/2022 10:29:05] "GET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1" 200 -
+2022-06-06 10:29:05,905 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Jun/2022 10:29:05] "GET /static/assets/images/logo.png HTTP/1.1" 200 -
+2022-06-06 10:29:05,925 INFO werkzeug Thread-9 : 127.0.0.1 - - [06/Jun/2022 10:29:05] "GET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1" 200 -
+2022-06-06 10:29:05,929 INFO werkzeug Thread-10 : 127.0.0.1 - - [06/Jun/2022 10:29:05] "GET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1" 200 -
+2022-06-06 10:29:05,950 INFO werkzeug Thread-11 : 127.0.0.1 - - [06/Jun/2022 10:29:05] "GET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1" 200 -
+2022-06-06 10:29:06,139 INFO werkzeug Thread-12 : 127.0.0.1 - - [06/Jun/2022 10:29:06] "GET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 -
+2022-06-06 10:29:06,139 INFO werkzeug Thread-13 : 127.0.0.1 - - [06/Jun/2022 10:29:06] "GET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+2022-06-06 10:29:06,269 INFO werkzeug Thread-14 : 127.0.0.1 - - [06/Jun/2022 10:29:06] "GET /static/assets/images/favicon.png HTTP/1.1" 200 -
+2022-06-06 10:29:15,018 INFO werkzeug Thread-15 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "[32mPOST /authentication/login/send HTTP/1.1[0m" 302 -
+2022-06-06 10:29:15,188 INFO werkzeug Thread-16 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "GET / HTTP/1.1" 200 -
+2022-06-06 10:29:15,372 INFO werkzeug Thread-17 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:15,426 INFO werkzeug Thread-20 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:29:15,426 INFO werkzeug Thread-19 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:29:15,428 INFO werkzeug Thread-18 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:29:15,655 INFO werkzeug Thread-22 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:15,656 INFO werkzeug Thread-21 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:15,656 INFO werkzeug Thread-23 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:15,842 INFO werkzeug Thread-24 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 10:29:15,862 INFO werkzeug Thread-25 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "GET /static/assets/images/default_avatar.jpg HTTP/1.1" 200 -
+2022-06-06 10:29:15,867 INFO werkzeug Thread-26 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "GET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1" 200 -
+2022-06-06 10:29:15,876 INFO werkzeug Thread-27 : 127.0.0.1 - - [06/Jun/2022 10:29:15] "GET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1" 200 -
+2022-06-06 10:29:21,130 INFO werkzeug Thread-28 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "GET /settings/application HTTP/1.1" 200 -
+2022-06-06 10:29:21,357 INFO werkzeug Thread-29 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:21,359 INFO werkzeug Thread-30 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:29:21,402 INFO werkzeug Thread-31 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:29:21,402 INFO werkzeug Thread-32 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:29:21,481 INFO werkzeug Thread-33 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:21,488 INFO werkzeug Thread-34 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:21,509 INFO werkzeug Thread-35 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:21,611 INFO werkzeug Thread-36 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "GET /static/assets/images/logo-icon.png HTTP/1.1" 200 -
+2022-06-06 10:29:21,615 INFO werkzeug Thread-37 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 10:29:21,631 INFO werkzeug Thread-38 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-06 10:29:21,750 INFO werkzeug Thread-39 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-06 10:29:21,752 INFO werkzeug Thread-40 : 127.0.0.1 - - [06/Jun/2022 10:29:21] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,115 INFO werkzeug Thread-41 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "GET /settings/view_table HTTP/1.1" 200 -
+2022-06-06 10:29:26,325 INFO werkzeug Thread-42 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,327 INFO werkzeug Thread-43 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,327 INFO werkzeug Thread-44 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,330 INFO werkzeug Thread-45 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,433 INFO werkzeug Thread-46 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,433 INFO werkzeug Thread-47 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,437 INFO werkzeug Thread-48 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,574 INFO werkzeug Thread-49 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/assets/images/logo-icon.png HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,615 INFO werkzeug Thread-50 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,637 INFO werkzeug Thread-51 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,669 INFO werkzeug Thread-52 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-06 10:29:26,674 INFO werkzeug Thread-53 : 127.0.0.1 - - [06/Jun/2022 10:29:26] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,058 INFO werkzeug Thread-54 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "GET /settings/view_chart HTTP/1.1" 200 -
+2022-06-06 10:31:12,317 INFO werkzeug Thread-55 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,325 INFO werkzeug Thread-56 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,327 INFO werkzeug Thread-57 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,329 INFO werkzeug Thread-58 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,455 INFO werkzeug Thread-59 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,457 INFO werkzeug Thread-60 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,457 INFO werkzeug Thread-61 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,607 INFO werkzeug Thread-62 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/assets/images/logo-icon.png HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,615 INFO werkzeug Thread-63 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,651 INFO werkzeug Thread-64 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,656 INFO werkzeug Thread-65 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-06 10:31:12,659 INFO werkzeug Thread-66 : 127.0.0.1 - - [06/Jun/2022 10:31:12] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,240 INFO werkzeug Thread-67 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "GET /settings/sources HTTP/1.1" 200 -
+2022-06-06 10:31:55,458 INFO werkzeug Thread-69 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,459 INFO werkzeug Thread-68 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,463 INFO werkzeug Thread-70 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,483 INFO werkzeug Thread-71 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,612 INFO werkzeug Thread-72 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,616 INFO werkzeug Thread-73 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,618 INFO werkzeug Thread-74 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,760 INFO werkzeug Thread-75 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/assets/images/logo-icon.png HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,760 INFO werkzeug Thread-76 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,785 INFO werkzeug Thread-77 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,843 INFO werkzeug Thread-78 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-06 10:31:55,844 INFO werkzeug Thread-79 : 127.0.0.1 - - [06/Jun/2022 10:31:55] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-06 10:34:24,394 INFO werkzeug Thread-80 : 127.0.0.1 - - [06/Jun/2022 10:34:24] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-06 10:34:25,820 INFO werkzeug Thread-81 : 127.0.0.1 - - [06/Jun/2022 10:34:25] "GET / HTTP/1.1" 200 -
+2022-06-06 10:34:26,153 INFO werkzeug Thread-82 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:34:26,212 INFO werkzeug Thread-83 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:34:26,226 INFO werkzeug Thread-85 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:34:26,230 INFO werkzeug Thread-84 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-06 10:34:26,419 INFO werkzeug Thread-86 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-06 10:34:26,419 INFO werkzeug Thread-87 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-06 10:34:26,423 INFO werkzeug Thread-89 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-06 10:34:26,426 INFO werkzeug Thread-88 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-06 10:34:26,428 INFO werkzeug Thread-90 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-06 10:34:26,617 INFO werkzeug Thread-91 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-06 10:34:26,658 INFO werkzeug Thread-92 : 127.0.0.1 - - [06/Jun/2022 10:34:26] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-07 14:33:56,712 INFO app.main Thread-93 : 127.0.0.1; /; view_dashboard; Access Restriction; Token has not been expired and removed from database
+2022-06-07 14:33:56,716 INFO werkzeug Thread-93 : 127.0.0.1 - - [07/Jun/2022 14:33:56] "[32mGET / HTTP/1.1[0m" 302 -
+2022-06-07 14:33:56,853 INFO werkzeug Thread-94 : 127.0.0.1 - - [07/Jun/2022 14:33:56] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-07 14:33:57,043 INFO werkzeug Thread-95 : 127.0.0.1 - - [07/Jun/2022 14:33:57] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-07 14:33:57,071 INFO werkzeug Thread-96 : 127.0.0.1 - - [07/Jun/2022 14:33:57] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-07 14:33:57,096 INFO werkzeug Thread-97 : 127.0.0.1 - - [07/Jun/2022 14:33:57] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-07 14:33:57,097 INFO werkzeug Thread-98 : 127.0.0.1 - - [07/Jun/2022 14:33:57] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-07 14:33:57,195 INFO werkzeug Thread-99 : 127.0.0.1 - - [07/Jun/2022 14:33:57] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-07 14:33:57,196 INFO werkzeug Thread-100 : 127.0.0.1 - - [07/Jun/2022 14:33:57] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-07 14:33:57,199 INFO werkzeug Thread-101 : 127.0.0.1 - - [07/Jun/2022 14:33:57] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-07 14:33:57,326 INFO werkzeug Thread-102 : 127.0.0.1 - - [07/Jun/2022 14:33:57] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-07 14:33:57,362 INFO werkzeug Thread-103 : 127.0.0.1 - - [07/Jun/2022 14:33:57] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-07 14:33:57,372 INFO werkzeug Thread-104 : 127.0.0.1 - - [07/Jun/2022 14:33:57] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-07 14:33:59,364 INFO werkzeug Thread-105 : 127.0.0.1 - - [07/Jun/2022 14:33:59] "[32mPOST /authentication/login/send HTTP/1.1[0m" 302 -
+2022-06-07 14:33:59,608 INFO werkzeug Thread-106 : 127.0.0.1 - - [07/Jun/2022 14:33:59] "GET / HTTP/1.1" 200 -
+2022-06-07 14:34:00,338 INFO werkzeug Thread-107 : 127.0.0.1 - - [07/Jun/2022 14:34:00] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-07 14:34:00,383 INFO werkzeug Thread-108 : 127.0.0.1 - - [07/Jun/2022 14:34:00] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-07 14:34:00,383 INFO werkzeug Thread-109 : 127.0.0.1 - - [07/Jun/2022 14:34:00] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-07 14:34:00,394 INFO werkzeug Thread-110 : 127.0.0.1 - - [07/Jun/2022 14:34:00] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-07 14:34:01,099 INFO werkzeug Thread-111 : 127.0.0.1 - - [07/Jun/2022 14:34:01] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-07 14:34:01,099 INFO werkzeug Thread-112 : 127.0.0.1 - - [07/Jun/2022 14:34:01] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-07 14:34:01,099 INFO werkzeug Thread-113 : 127.0.0.1 - - [07/Jun/2022 14:34:01] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-07 14:34:01,501 INFO werkzeug Thread-114 : 127.0.0.1 - - [07/Jun/2022 14:34:01] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-07 14:34:01,502 INFO werkzeug Thread-115 : 127.0.0.1 - - [07/Jun/2022 14:34:01] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-07 14:34:01,543 INFO werkzeug Thread-116 : 127.0.0.1 - - [07/Jun/2022 14:34:01] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-07 14:34:01,579 INFO werkzeug Thread-117 : 127.0.0.1 - - [07/Jun/2022 14:34:01] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-07 14:34:07,376 INFO werkzeug Thread-118 : 127.0.0.1 - - [07/Jun/2022 14:34:07] "[32mGET /dashboard/select-mode/chart HTTP/1.1[0m" 302 -
+2022-06-07 14:34:07,564 INFO werkzeug Thread-119 : 127.0.0.1 - - [07/Jun/2022 14:34:07] "GET / HTTP/1.1" 200 -
+2022-06-07 14:34:07,913 INFO werkzeug Thread-120 : 127.0.0.1 - - [07/Jun/2022 14:34:07] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-07 14:34:07,918 INFO werkzeug Thread-121 : 127.0.0.1 - - [07/Jun/2022 14:34:07] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-07 14:34:07,975 INFO werkzeug Thread-122 : 127.0.0.1 - - [07/Jun/2022 14:34:07] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-07 14:34:07,977 INFO werkzeug Thread-123 : 127.0.0.1 - - [07/Jun/2022 14:34:07] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-07 14:34:08,086 INFO werkzeug Thread-125 : 127.0.0.1 - - [07/Jun/2022 14:34:08] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-07 14:34:08,116 INFO werkzeug Thread-126 : 127.0.0.1 - - [07/Jun/2022 14:34:08] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-07 14:34:08,124 INFO werkzeug Thread-124 : 127.0.0.1 - - [07/Jun/2022 14:34:08] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-07 14:34:08,259 INFO werkzeug Thread-127 : 127.0.0.1 - - [07/Jun/2022 14:34:08] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-07 14:34:08,265 INFO werkzeug Thread-128 : 127.0.0.1 - - [07/Jun/2022 14:34:08] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-07 14:34:08,293 INFO werkzeug Thread-129 : 127.0.0.1 - - [07/Jun/2022 14:34:08] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-07 14:34:08,303 INFO werkzeug Thread-130 : 127.0.0.1 - - [07/Jun/2022 14:34:08] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-08 07:34:40,438 INFO app.main Thread-131 : 127.0.0.1; /; view_dashboard; Access Restriction; Token has not been expired and removed from database
+2022-06-08 07:34:40,442 INFO werkzeug Thread-131 : 127.0.0.1 - - [08/Jun/2022 07:34:40] "[32mGET / HTTP/1.1[0m" 302 -
+2022-06-08 07:34:40,670 INFO werkzeug Thread-132 : 127.0.0.1 - - [08/Jun/2022 07:34:40] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-08 07:34:40,924 INFO werkzeug Thread-133 : 127.0.0.1 - - [08/Jun/2022 07:34:40] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:40,926 INFO werkzeug Thread-135 : 127.0.0.1 - - [08/Jun/2022 07:34:40] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:34:40,926 INFO werkzeug Thread-134 : 127.0.0.1 - - [08/Jun/2022 07:34:40] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:34:40,927 INFO werkzeug Thread-136 : 127.0.0.1 - - [08/Jun/2022 07:34:40] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:34:41,115 INFO werkzeug Thread-137 : 127.0.0.1 - - [08/Jun/2022 07:34:41] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:41,124 INFO werkzeug Thread-138 : 127.0.0.1 - - [08/Jun/2022 07:34:41] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:41,168 INFO werkzeug Thread-139 : 127.0.0.1 - - [08/Jun/2022 07:34:41] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:41,341 INFO werkzeug Thread-140 : 127.0.0.1 - - [08/Jun/2022 07:34:41] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-08 07:34:41,356 INFO werkzeug Thread-141 : 127.0.0.1 - - [08/Jun/2022 07:34:41] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-08 07:34:41,363 INFO werkzeug Thread-142 : 127.0.0.1 - - [08/Jun/2022 07:34:41] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-08 07:34:43,150 INFO werkzeug Thread-143 : 127.0.0.1 - - [08/Jun/2022 07:34:43] "[32mPOST /authentication/login/send HTTP/1.1[0m" 302 -
+2022-06-08 07:34:43,377 INFO werkzeug Thread-144 : 127.0.0.1 - - [08/Jun/2022 07:34:43] "GET / HTTP/1.1" 200 -
+2022-06-08 07:34:43,713 INFO werkzeug Thread-146 : 127.0.0.1 - - [08/Jun/2022 07:34:43] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:34:43,766 INFO werkzeug Thread-145 : 127.0.0.1 - - [08/Jun/2022 07:34:43] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:43,783 INFO werkzeug Thread-147 : 127.0.0.1 - - [08/Jun/2022 07:34:43] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:34:43,790 INFO werkzeug Thread-148 : 127.0.0.1 - - [08/Jun/2022 07:34:43] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:34:43,920 INFO werkzeug Thread-149 : 127.0.0.1 - - [08/Jun/2022 07:34:43] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:43,926 INFO werkzeug Thread-150 : 127.0.0.1 - - [08/Jun/2022 07:34:43] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:43,941 INFO werkzeug Thread-151 : 127.0.0.1 - - [08/Jun/2022 07:34:43] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:44,120 INFO werkzeug Thread-152 : 127.0.0.1 - - [08/Jun/2022 07:34:44] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-08 07:34:44,131 INFO werkzeug Thread-153 : 127.0.0.1 - - [08/Jun/2022 07:34:44] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-08 07:34:44,153 INFO werkzeug Thread-154 : 127.0.0.1 - - [08/Jun/2022 07:34:44] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-08 07:34:44,153 INFO werkzeug Thread-155 : 127.0.0.1 - - [08/Jun/2022 07:34:44] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-08 07:34:54,881 INFO werkzeug Thread-156 : 127.0.0.1 - - [08/Jun/2022 07:34:54] "GET / HTTP/1.1" 200 -
+2022-06-08 07:34:55,419 INFO werkzeug Thread-158 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:34:55,429 INFO werkzeug Thread-157 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:55,433 INFO werkzeug Thread-159 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:34:55,438 INFO werkzeug Thread-160 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:34:55,590 INFO werkzeug Thread-161 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:55,609 INFO werkzeug Thread-162 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:55,641 INFO werkzeug Thread-163 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-08 07:34:55,762 INFO werkzeug Thread-164 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-08 07:34:55,816 INFO werkzeug Thread-165 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-08 07:34:55,820 INFO werkzeug Thread-166 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-08 07:34:55,822 INFO werkzeug Thread-167 : 127.0.0.1 - - [08/Jun/2022 07:34:55] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-08 07:35:00,873 INFO werkzeug Thread-168 : 127.0.0.1 - - [08/Jun/2022 07:35:00] "[32mGET /dashboard/select-mode/table HTTP/1.1[0m" 302 -
+2022-06-08 07:35:01,577 INFO werkzeug Thread-169 : 127.0.0.1 - - [08/Jun/2022 07:35:01] "GET / HTTP/1.1" 200 -
+2022-06-08 07:35:01,981 INFO werkzeug Thread-170 : 127.0.0.1 - - [08/Jun/2022 07:35:01] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-08 07:35:02,009 INFO werkzeug Thread-171 : 127.0.0.1 - - [08/Jun/2022 07:35:02] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:35:02,038 INFO werkzeug Thread-172 : 127.0.0.1 - - [08/Jun/2022 07:35:02] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:35:02,051 INFO werkzeug Thread-173 : 127.0.0.1 - - [08/Jun/2022 07:35:02] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-08 07:35:02,528 INFO werkzeug Thread-175 : 127.0.0.1 - - [08/Jun/2022 07:35:02] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-08 07:35:02,548 INFO werkzeug Thread-174 : 127.0.0.1 - - [08/Jun/2022 07:35:02] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-08 07:35:02,554 INFO werkzeug Thread-176 : 127.0.0.1 - - [08/Jun/2022 07:35:02] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-08 07:35:02,928 INFO werkzeug Thread-177 : 127.0.0.1 - - [08/Jun/2022 07:35:02] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-08 07:35:02,964 INFO werkzeug Thread-178 : 127.0.0.1 - - [08/Jun/2022 07:35:02] "[36mGET /static/assets/images/default_avatar.jpg HTTP/1.1[0m" 304 -
+2022-06-08 07:35:02,982 INFO werkzeug Thread-179 : 127.0.0.1 - - [08/Jun/2022 07:35:02] "[36mGET /static/dist/css/icons/themify-icons/fonts/themify.woff HTTP/1.1[0m" 304 -
+2022-06-08 07:35:02,985 INFO werkzeug Thread-180 : 127.0.0.1 - - [08/Jun/2022 07:35:02] "[36mGET /static/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2?v=1.8.36 HTTP/1.1[0m" 304 -
+2022-06-08 08:13:55,951 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/wsgi.py', reloading
+2022-06-08 08:13:56,044 INFO werkzeug MainThread :  * Restarting with stat

@@ -1,0 +1,28 @@
+{% extends '/settings/settings.html' %}
+{% block head %}
+    <title>{{ table|capitalize }} Management</title>
+{% endblock %}
+{% block settings_page %}
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{{ table|capitalize }} Settings</h4>
+        </div>
+        <table class="table table-bordered text-center col-12">
+            <tbody>
+                {% for column in settings["fields"] %}
+                    <tr class="col-12">
+                        <td class="col-2">
+                            <h4>{{column["Field"]|capitalize}}</h4>
+                        </td>
+                        {% if column["Field"] in ("id") %}
+                        {% else %}
+                            <td class=="col-10">
+                                <input type="text" class="form-control" name="{{ column['Field'] }}" value="{{ settings[table][column["Field"]] }}" onchange="settings_update('application','{{ column['Field'] }}',this.value,'-','-')">
+                            </td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

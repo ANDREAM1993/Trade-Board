@@ -1,0 +1,38 @@
+{% extends 'dashboard/dashboard.html' %}
+{% block head %}
+    <title>Contact Us</title>
+{% endblock %}
+{% block contact %}
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <form class="form-horizontal" action="/feedback/send" method="POST">
+                    <div class="card-body">
+                        <h4 class="card-title">Leave Your Feedback</h4>
+                        <input type="hidden" name="username" value="{{ account['account']['username'] }}">
+                        <div class="form-group row">
+                            <label for="title" class="col-sm-3 text-right control-label col-form-label">Title</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" name="title" placeholder="Input Feedback Title Here">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Text</label>
+                            <div class="col-sm-9">
+                                <textarea name="text" class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top">
+                        <div class="card-body">
+                            <button type="submit" class="btn btn-primary col-12 mdi mdi-send">
+                                Send
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block scripts %}{% endblock %}

@@ -1,0 +1,311 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>Dashboard</title>
+{% endblock %}
+{% block timeframe %}{% endblock %}
+{% block content %}
+    <div id="main-wrapper">
+        <header class="topbar" data-navbarbg="skin5">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                    <!-- Left Header Side -->
+                    <ul class="navbar-nav float-left mr-auto">
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link sidebartoggler waves-effect waves-light" href="/" data-sidebartype="mini-sidebar">
+                                <span class="logo-text">
+                                    <img src="/static/assets/images/logo.png" alt="homepage" class="light-logo" />
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Center Header Side -->
+                    {% if page == "dashboard" %}
+                        <ul class="navbar-nav float-left mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="d-none d-md-block">
+                                        <i class="mdi mdi-timer font-24"></i>
+                                    </span>
+                                    <span class="d-block d-md-none">
+                                        <i class="mdi mdi-timer"></i>
+                                    </span>   
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    {% for timeframe in timeframes["timeframes"] %}
+                                        <a class="dropdown-item" href="/dashboard/select-timeframe/{{ timeframe['variable'] }}">{{ timeframe["title"] }}</a>
+                                    {% endfor %}
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="d-none d-md-block">
+                                        <i class="mdi mdi-search-web font-24"></i>
+                                        {% if constants["constants"]["limit"] %}
+                                            ({{ constants["constants"]["limit"] }})
+                                        {% endif %}
+                                    </span>
+                                    <span class="d-block d-md-none">
+                                        <i class="mdi mdi-search-web font-24"></i>
+                                    </span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    {% for limit in limits["limits"] %}
+                                        <a class="dropdown-item" href="/dashboard/select-limit/{{ limit["variable"] }}">{{ limit["title"] }}</a>
+                                    {% endfor %}
+                                </div>
+                            </li>
+                            {% if constants["constants"]["mode"] == "chart" %}
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="d-none d-md-block">
+                                            <i class="mdi mdi-target"></i>
+                                        </span>
+                                        <span class="d-block d-md-none">
+                                            <i class="mdi mdi-target"></i>
+                                        </span>   
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="overflow:auto; height:556px;width:564px;">
+                                        {% for report in reports["reports"] %}
+                                            {% if report["id"] == 0 %}
+                                                <a class="dropdown-item" href="/dashboard/select-report/{{ report['x_axis'] }}_{{ report['y_axis'] }}/custom">{{ report["title"] }}</a>
+                                            {% else %}
+                                                <a class="dropdown-item" href="/dashboard/select-report/{{ report['x_axis'] }}_{{ report['y_axis'] }}">{{ report["title"] }}</a>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="d-none d-md-block">
+                                            <i class="mdi mdi-file-chart"></i>
+                                        </span>
+                                        <span class="d-block d-md-none">
+                                            <i class="mdi mdi-file-chart"></i>
+                                        </span>   
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        {% for chart in charts["charts"] %}
+                                            <a class="dropdown-item" href="/dashboard/select-chart/{{ chart['variable'] }}">{{ chart["title"] }}</a>
+                                        {% endfor %}
+                                    </div>
+                                </li>
+                                {% if "custom" in chart["dataset"] %}
+                                    {% if chart["dataset"]["custom"] %}
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="d-none d-md-block">
+                                                    OX
+                                                </span>
+                                                <span class="d-block d-md-none">
+                                                    OX
+                                                </span>   
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                {% for x_axis in chart["custom"]["x_axis"] %}
+                                                    <a class="dropdown-item" href="/dashboard/chart/select-axis/x/{{ x_axis }}">{{ x_axis|capitalize }}</a>
+                                                {% endfor %}
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="d-none d-md-block">
+                                                    OY
+                                                </span>
+                                                <span class="d-block d-md-none">
+                                                    OY
+                                                </span>   
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                {% for y_axis in chart["custom"]["y_axis"] %}
+                                                    <a class="dropdown-item" href="/dashboard/chart/select-axis/y/{{ y_axis }}">{{ y_axis|capitalize }}</a>
+                                                {% endfor %}
+                                            </div>
+                                        </li>
+                                    {% endif %}
+                                {% endif %}
+                            {% endif %}
+                        </ul>
+                    {% else %}
+                    {% endif %}
+                    <!-- Right Header Side -->
+                    <ul class="navbar-nav float-right">
+                        {% if page == "dashboard" %}
+                            <!-- Time Panel -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle waves-effect waves-dark" href="javascript:void(0)" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="mdi mdi-clock font-24"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown" aria-labelledby="2">
+                                    <ul class="list-style-none">
+                                        <li>
+                                            <div class="">
+                                                <a href="javascript:void(0)" class="link border-top">
+                                                    <div class="d-flex no-block align-items-center p-10">
+                                                        <span class="btn btn-success btn-circle">
+                                                            <i class="mdi mdi-calendar-clock"></i>
+                                                        </span>
+                                                        <div class="m-l-10">
+                                                            <h5 class="m-b-0">Current Time</h5>
+                                                            <span class="mail-desc" id="clock"></span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="javascript:void(0)" class="link border-top">
+                                                    <div class="d-flex no-block align-items-center p-10">
+                                                        <span class="btn btn-success btn-circle">
+                                                            <i class="mdi mdi-timer"></i>
+                                                        </span>
+                                                        <div class="m-l-10">
+                                                            <h5 class="m-b-0">Timeframe</h5>
+                                                            <span class="mail-desc">{{ constants["constants"]["timeframe"] }}&nbsp;minute(s)</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="javascript:void(0)" class="link border-top">
+                                                    <div class="d-flex no-block align-items-center p-10">
+                                                        <span class="btn btn-success btn-circle">
+                                                            <i class="mdi mdi-update font-14"></i>
+                                                        </span>
+                                                        <div class="m-l-10">
+                                                            <h5 class="m-b-0">Last Update At</h5>
+                                                            <span class="mail-desc" id="updatedAt">{{ updatedAt }}</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- List of Notifications -->
+                            {% if notifications|length %}
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle waves-effect waves-dark" href="javascript:void(0)" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="mdi mdi-bell font-24"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown" aria-labelledby="2">
+                                        <ul class="list-style-none">
+                                            <li>
+                                                <div class="">
+                                                    {% for message in notifications["notifications"] %}
+                                                        <a href="javascript:void(0)" class="link border-top">
+                                                            <div class="d-flex no-block align-items-center p-10">
+                                                                <span class="btn btn-success btn-circle">
+                                                                    <i class="ti-calendar"></i>
+                                                                </span>
+                                                                <div class="m-l-10">
+                                                                    <h5 class="m-b-0">{{ message["title"] }}</h5> 
+                                                                    <span class="mail-desc">{{ message["text"] }}</span>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    {% endfor %}
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            {% endif %}
+                        {% else %}
+                        {% endif %}
+                        <!-- Userbox Menu -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="{{ url_for('static', filename='assets/images/default_avatar.jpg') }}" alt="user" class="rounded-circle" width="31">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right user-dd animated">
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <i class="mdi mdi-account font-15"></i>
+                                    Hi, {{ account["account"]["lastname"] }}&nbsp;{{ account["account"]["firstname"] }}!
+                                </a>
+                                {% if page == "dashboard" %}
+                                    {% if constants["constants"]["mode"] == "table" %}
+                                        <a class="dropdown-item" href="/dashboard/select-mode/chart">
+                                            <i class="mdi mdi-chart-line font-15"></i>
+                                            Display Chart
+                                        </a>
+                                    {% else %}
+                                        <a class="dropdown-item" href="/dashboard/select-mode/table">
+                                            <i class="mdi mdi-table-large font-15"></i>
+                                            Display Table
+                                        </a>
+                                    {% endif %}
+                                    {% if account["account"]["role"] == "admin" %}
+                                        <a class="dropdown-item" href="/settings/application">
+                                            <i class="mdi mdi-settings font-15"></i>
+                                            Go To Settings
+                                        </a>
+                                    {% endif %}
+                                    <a class="dropdown-item" href="/feedback">
+                                        <i class="mdi mdi-send font-15"></i>
+                                        Contact Us
+                                    </a>
+                                {% elif page == "feedback" %}
+                                    <a class="dropdown-item" href="/">
+                                        <i class="mdi mdi-view-dashboard font-15"></i>
+                                        Go To Dashboard
+                                    </a>
+                                {% endif %}                                
+                                <a class="dropdown-item" href="/authentication/logout">
+                                    <i class="mdi mdi-logout font-15"></i>
+                                    Logout
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <div class="p-l-30 p-10 text-center">
+                                    {% if account["account"]["role"] == "admin" %}
+                                        <a href="javascript:void(0)" class="btn btn-sm btn-success btn-rounded">
+                                            <i class="mdi mdi-brightness-1 font-15"></i>
+                                            {{ account["account"]["role"]|capitalize }}&nbsp;Mode
+                                        </a>
+                                    {% else %}
+                                        <a href="javascript:void(0)" class="btn btn-sm btn-danger btn-rounded">
+                                            <i class="mdi mdi-brightness-1 font-15"></i>
+                                            {{ account["account"]["role"]|capitalize }}&nbsp;Mode
+                                        </a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="page-breadcrumb">
+            <div class="row">
+                <div class="col-12 d-flex no-block align-items-center">
+                    <div class="ml-auto text-right">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="/">Dashboard</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    {% if page == "dashboard" %}
+                                        <a href="javascript:void(0)">{{ constants["constants"]["mode"]|capitalize }}&nbsp;Mode</a>
+                                    {% else %}
+                                        <a href="javascript:void(0)">Contact Us</a>
+                                    {% endif %}
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            {% if page == "dashboard" %}
+                {% if constants["constants"]["mode"] == "table" %}
+                    {% block tables %}{% endblock %}
+                {% else %}
+                    {% block charts %}{% endblock %}
+                {% endif %}
+            {% else %}
+                {% block contact %}{% endblock %}
+            {% endif %}
+        </div>
+        <footer class="footer text-center">
+            All Rights Reserved by <a href="https://zp.edu.ua/">ZNTU</a>. Designed and Developed by <a href="https://wrappixel.com">WrapPixel</a>
+        </footer>
+    </div>
+{% endblock %}
+{% block scripts %}{% endblock %}

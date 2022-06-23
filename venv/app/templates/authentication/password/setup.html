@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>Setup New Password Page</title>
+{% endblock %}
+{% block header %}{% endblock %}
+{% block content %}
+    <div class="auth-wrapper d-flex no-block justify-content-center align-items-center bg-dark">
+        <div class="auth-box bg-dark border-top border-secondary">
+            <div>
+                <div class="text-center p-t-20 p-b-20">
+                    <span class="db">
+                        <img src="{{ url_for('static', filename='assets/images/logo.png') }}" alt="logo">
+                    </span>
+                </div>
+                <div class="text-center">
+                    <span class="text-white">Enter new password and we will reset it</span>
+                </div>
+                <div class="row m-t-20">
+                    <form class="col-12" method="POST" action="/authentication/password/setup/send">
+                        <input name="token" type="hidden" value="{{ token }}">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-info text-white" id="basic-addon1">
+                                    <i class="fas fa-key"></i>
+                                </span>
+                            </div>
+                            <input name="new-password" type="password" class="form-control form-control-lg" placeholder="New Password" aria-label="New Password" aria-describedby="basic-addon1" required>
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white" id="basic-addon1">
+                                    <i class="fas fa-key"></i>
+                                </span>
+                            </div>
+                            <input name="confirmation-password" type="password" class="form-control form-control-lg" placeholder="Confirmation Password" aria-label="Confirmation Password" aria-describedby="basic-addon1" required>
+                        </div>
+                        <div class="row m-t-20 p-t-20 border-top border-secondary">
+                            <div class="col-12">
+                                <button class="btn btn-warning" id="authentication-login" type="button">
+                                    <i class="far fa-arrow-alt-circle-left m-r-5"></i>
+                                    To Login
+                                </button>
+                                <button class="btn btn-success float-right" type="submit">
+                                    <i class="far fa-arrow-alt-circle-right m-r-5"></i>
+                                    Reset
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block footer %}{% endblock %}
+{% block scripts %}
+    <script>
+        $('#authentication-login').on("click", function() {
+            window.location.href="/authentication/login";
+        })
+    </script>
+{% endblock %}

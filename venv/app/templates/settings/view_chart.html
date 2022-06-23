@@ -1,0 +1,88 @@
+{% extends '/settings/settings.html' %}
+
+{% block settings_page %}
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{{ table|capitalize }} Settings</h4>
+        </div>
+        <table class="table table-bordered text-center col-12">
+            <tbody>
+                {% for column in settings["fields"] %}
+                    {% if column["Field"] in ("comments", "videowall_id") %}
+                    {%else%}
+                    <tr>
+                            <td>
+                                {% if column["Field"] == "report_id" %}
+                                    Aplied Report
+                                {% elif column["Field"] == "chart_id" %}
+                                    Applied Chart Type
+                                {% elif column["Field"] == "x_axis" %}
+                                    Custom axis "OX"
+                                {% elif column["Field"] == "y_axis" %}
+                                    Custom axis "OY"
+                                {% elif column["Field"] == "source_color_1" %}
+                                    Layout Color (MIN)
+                                {% elif column["Field"] == "source_color_2" %}
+                                    Layout Color (MAX)
+                                {% elif column["Field"] == "source_color_3" %}
+                                    Layout Color (AVG)
+                                {% else %}
+                                {% endif%}
+                            </td>
+                            <td>
+                                    {% if column["Field"] == "report_id" %}
+                                        <select class="form-control" name="" onchange="settings_update('view_chart','report_id',this.value,'-','-')">
+                                            {%for report in settings["support"]["reports"] %}
+                                                {% if settings[table]["report_id"] == report["id"] %}
+                                                    <option value="{{report["id"]}}" selected>{{report["title"]}}</option>
+                                                {% else %}
+                                                    <option value="{{report["id"]}}">{{report["title"]}}</option>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    {% elif column["Field"] == "chart_id" %}
+                                        <select class="form-control" name="" onchange="settings_update('view_chart','chart_id',this.value,'-','-')">
+                                            {%for chart in settings["support"]["charts"] %}
+                                                {% if settings[table]["chart_id"] == chart["id"] %}
+                                                    <option value="{{chart["id"]}}" selected>{{chart["title"]}}</option>
+                                                {% else %}
+                                                    <option value="{{chart["id"]}}">{{chart["title"]}}</option>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    {% elif column["Field"] == "x_axis" %}
+                                        <select class="form-control" name="" onchange="settings_update('view_chart','x_axis',this.value,'-','-')">
+                                            {%for axis in settings["support"]["x_axis"] %}
+                                                {% if settings[table]["x_axis"] == axis %}
+                                                    <option value="{{axis}}" selected>{{axis|capitalize}}</option>
+                                                {% else %}
+                                                    <option value="{{axis}}">{{axis|capitalize}}</option>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    {% elif column["Field"] == "y_axis" %}
+                                        <select class="form-control" name="" onchange="settings_update('view_chart','y_axis',this.value,'-','-')">
+                                            {%for axis in settings["support"]["y_axis"] %}
+                                                {% if settings[table]["y_axis"] == axis %}
+                                                    <option value="{{axis}}" selected>{{axis|capitalize}}</option>
+                                                {% else %}
+                                                    <option value="{{axis}}">{{axis|capitalize}}</option>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    {% elif column["Field"] == "source_color_1" %}
+                                        <input type="color" name="source_color_1" value="#{{ settings[table]["source_color_1"] }}" onchange="settings_update('view_chart','source_color_1',this.value,'-','-')">
+                                    {% elif column["Field"] == "source_color_2" %}
+                                        <input type="color" name="source_color_2" value="#{{ settings[table]["source_color_2"] }}" onchange="settings_update('view_chart','source_color_2',this.value,'-','-')">
+                                    {% elif column["Field"] == "source_color_3" %}
+                                        <input type="color" name="source_color_3" value="#{{ settings[table]["source_color_3"] }}" onchange="settings_update('view_chart','source_color_3',this.value,'-','-')">
+                                    {% else %}
+                                    {% endif%}
+                            </td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

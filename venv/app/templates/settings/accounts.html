@@ -1,0 +1,59 @@
+{% extends '/settings/settings.html' %}
+{% block head %}
+    <title>{{ table|capitalize }} Management</title>
+{% endblock %}
+{% block settings_page %}
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{{ table|capitalize }} Settings</h4>
+        </div>
+        <table class="table table-bordered text-center">
+            <thead>
+                <tr>
+                    {% for column in settings["fields"] %}
+                        {% if column["Field"] in  ("id", "password") %}
+                        {% else %}
+                            <td>{{ column["Field"]|capitalize }}</td>
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for account in settings[table] %}
+                    <tr>
+                        {% for column in settings["fields"] %}
+                            {% if column["Field"] in ("id", "password") %}
+                            {% elif column["Field"] == "state" %}
+                                <td>
+                                    {% if account[column["Field"]] %}
+                                        <button type="button" class="btn btn-danger mdi mdi-account-off" onclick="window.location.href='/settings/update/accounts/state/0/id/{{ account['id'] }}'"></button>
+                                    {% else %}
+                                        <button type="button" class="btn btn-success mdi mdi-account-check" onclick="window.location.href='/settings/update/accounts/state/1/id/{{ account['id'] }}'"></button>
+                                    {% endif %}
+                                </td>
+                             {% else %}
+                                <td>
+                                    {% if column['Field'] == "username" %}
+                                        <input type="text" class="form-control" name="{{ column['Field'] }}" value="{{ account[column["Field"]] }}" disabled>
+                                    {% elif column['Field'] == "role" %}
+                                        <select class="form-control" name="{{ column['Field'] }}" onchange="settings_update('accounts','{{ column['Field'] }}',this.value,'id',{{ account['id'] }})">
+                                            {% for role in settings["support"]["roles"] %}
+                                                {% if account[column["Field"]] == role["variable"] %}
+                                                    <option value="{{ role["variable"] }}" selected>{{ role["title"]|capitalize }}</option>
+                                                {% else %}
+                                                    <option value="{{ role["variable"] }}">{{ role["title"]|capitalize }}</option>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    {% else %}
+                                        <input type="text" class="form-control" name="{{ column['Field'] }}" value="{{ account[column["Field"]] }}" onchange="settings_update('accounts','{{ column['Field'] }}',this.value,'id',{{ account['id'] }})">
+                                    {% endif %}
+                                </td>
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

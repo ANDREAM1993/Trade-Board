@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>Forgot Password Page</title>
+{% endblock %}
+{% block header %}{% endblock %}
+{% block content %}
+    <div class="auth-wrapper d-flex no-block justify-content-center align-items-center bg-dark">
+        <div class="auth-box bg-dark border-top border-secondary">
+            <div>
+                <div class="text-center p-t-20 p-b-20">
+                    <span class="db">
+                        <img src="{{ url_for('static', filename='assets/images/logo.png') }}" alt="logo">
+                    </span>
+                </div>
+                <div class="text-center">
+                    <span class="text-white">Enter your e-mail address below and we will send you instructions how to recover a password</span>
+                </div>
+                <div class="row m-t-20">
+                    <form class="col-12" method="POST" action="/authentication/password/reset/send">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-info text-white" id="basic-addon1">
+                                    <i class="ti-email"></i>
+                                </span>
+                            </div>
+                            <input name="email" type="email" class="form-control form-control-lg" placeholder="Your Email Address" aria-label="Your Email Address" aria-describedby="basic-addon1" required>
+                        </div>
+                        <div class="row m-t-20 p-t-20 border-top border-secondary">
+                            <div class="col-12">
+                                <button class="btn btn-danger" id="authentication-login" type="button">
+                                    <i class="far fa-arrow-alt-circle-left m-r-5"></i>
+                                    Back To Login
+                                </button>
+                                <button class="btn btn-success float-right" type="submit">
+                                    <i class="far fa-arrow-alt-circle-right m-r-5"></i>
+                                    Reset
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block footer %}{% endblock %}
+{% block scripts %}
+    <script>
+        $('#authentication-login').on("click", function() {
+            window.location.href="/authentication/login";
+        })
+    </script>
+{% endblock %}

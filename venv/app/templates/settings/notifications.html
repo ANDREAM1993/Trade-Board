@@ -1,0 +1,45 @@
+{% extends 'settings/settings.html' %}
+{% block settings_page %}
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{{ table|capitalize }} Settings</h4>
+        </div>
+        <table class="table col-12">
+            <thead>
+                <tr>
+                    {% for field in settings["fields"][table]|sort %}
+                        {% if field == "id" %}
+                        {% elif field == "expire" %}
+                            <th class="col col-1">{{ field|capitalize }}</th>
+                        {% else %}
+                            <th class="col col-5">{{ field|capitalize }}</th>
+                        {% endif %}
+                    {% endfor %}
+                    <th class="col col-1"></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for table in settings["tables"] %}
+                    {% for item in settings[table] %}
+                        <tr>
+                            {% for field in settings["fields"][table] %}
+                                {% if field == "id" %}
+                                {% elif field == "expire" %}
+                                    <td class="col col-1">
+                                        <input type="datetime-local" name="{{ field }}-{{ item["id"] }}" class="form-control" id="datepicker-autoclose" value="{{ item[field] }}">
+                                    </td>
+                                {% else %}
+                                    <td class="col col-5">{{ item[field] }}</td>
+                                {% endif %}
+                            {% endfor %}
+                            <td class="col col-1">
+                                <button type="button" class="btn btn-primary col-12" onclick=`alert(${ {{table}} });`>UPDATE</button>
+                            </td>
+                            
+                        </tr>
+                    {% endfor %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

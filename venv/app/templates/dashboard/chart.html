@@ -1,0 +1,275 @@
+{% extends 'dashboard/dashboard.html' %}
+{% block charts %}
+    <div class="row">
+        <div class="col-12">
+            <div class="card col-12">
+                <div class="card-body text-center">
+                    {% if "dataset" in chart %}
+                        <div id="plot"></div>
+                    {% else %}
+                        <center>
+                            <h1>No data To Display...</h1>
+                        </center>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block scripts %}
+    <script src='https://cdn.plot.ly/plotly-2.12.1.min.js'></script>
+    <script>
+        var hw = $("header").width();
+        var bw = $(".page-breadcrumb").width();
+        var fw = $("footer").width();
+        var hh = $("header").height();
+        var bh = $(".page-breadcrumb").height();
+        var fh = $("footer").height();
+        $("#plot").width(hw*0.95).height(window.innerHeight - (hh + bh + fh) * 2);
+        {% if "dataset" in chart %}
+            {% if chart["dataset"]["type"] == "line" %}
+                var data = [];
+                {% if chart["dataset"]["layouts"]["quantity"] > 1 %}
+                    data = [
+                        {
+                            x: [
+                                {% for x in chart["dataset"]["layouts"]["data"]["x"] %}
+                                    "{{ x }}",
+                                {% endfor %}
+                            ],
+                            y: [
+                                {% for y in chart["dataset"]["layouts"]["data"]["y"]["min"] %}
+                                    "{{ y }}",
+                                {% endfor %}
+                            ],
+                            mode: 'lines+markers',
+                            name: 'Min',
+                            line: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["min"] }}',
+                                width: 3,
+                                shape: "spline",
+                                dash: "dashdot"
+                            },
+                            marker: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["min"] }}',
+                                size: 12
+                            }
+                        },
+                        {
+                            x: [
+                                {% for x in chart["dataset"]["layouts"]["data"]["x"] %}
+                                    "{{ x }}",
+                                {% endfor %}
+                            ],
+                            y: [
+                                {% for y in chart["dataset"]["layouts"]["data"]["y"]["max"] %}
+                                    "{{ y }}",
+                                {% endfor %}
+                            ],
+                            mode: 'lines+markers',
+                            name: 'Max',
+                            line: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["max"] }}',
+                                width: 3,
+                                shape: "spline",
+                                dash: "dashdot"
+                            },
+                            marker: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["max"] }}',
+                                size: 12
+                            }
+                        },
+                        {
+                            x: [
+                                {% for x in chart["dataset"]["layouts"]["data"]["x"] %}
+                                    "{{ x }}",
+                                {% endfor %}
+                            ],
+                            y: [
+                                {% for y in chart["dataset"]["layouts"]["data"]["y"]["avg"] %}
+                                    "{{ y }}",
+                                {% endfor %}
+                            ],
+                            mode: 'lines+markers',
+                            name: 'Avg',
+                            line: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["avg"] }}',
+                                width: 3,
+                                shape: "spline",
+                                dash: "dashdot"
+                            },
+                            marker: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["avg"] }}',
+                                size: 12
+                            }
+                        }
+                    ];
+                {% else %}
+                    data = [
+                        {
+                            x: [
+                                {% for x in chart["dataset"]["layouts"]["data"]["x"] %}
+                                    "{{ x }}",
+                                {% endfor %}
+                            ],
+                            y: [
+                                {% for y in chart["dataset"]["layouts"]["data"]["y"] %}
+                                    "{{ y }}",
+                                {% endfor %}
+                            ],
+                            mode: 'lines+markers',
+                            name: '{{ chart["dataset"]["layouts"]["y-axis"]["title"] }}',
+                            line: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["color"] }}',
+                                width: 3,
+                                shape: "spline",
+                                dash: "dashdot"
+                            },
+                            marker: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["color"] }}',
+                                size: 12
+                            }
+                        }
+                    ];
+                {% endif %}
+            {% elif chart["dataset"]["type"] == "bar" %}
+                var data = [];
+                {% if chart["dataset"]["layouts"]["quantity"] > 1 %}
+                    data = [
+                        {
+                            x: [
+                                {% for x in chart["dataset"]["layouts"]["data"]["x"] %}
+                                    "{{ x }}",
+                                {% endfor %}
+                            ],
+                            y: [
+                                {% for y in chart["dataset"]["layouts"]["data"]["y"]["min"] %}
+                                    "{{ y }}",
+                                {% endfor %}
+                            ],
+                            type: 'bar',
+                            name: 'Min',
+                            line: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["min"] }}',
+                                width: 3,
+                                shape: "spline",
+                                dash: "dashdot"
+                            },
+                            marker: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["min"] }}',
+                                size: 12
+                            }
+                        },
+                        {
+                            x: [
+                                {% for x in chart["dataset"]["layouts"]["data"]["x"] %}
+                                    "{{ x }}",
+                                {% endfor %}
+                            ],
+                            y: [
+                                {% for y in chart["dataset"]["layouts"]["data"]["y"]["max"] %}
+                                    "{{ y }}",
+                                {% endfor %}
+                            ],
+                            type: 'bar',
+                            name: 'Max',
+                            line: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["max"] }}',
+                                width: 3,
+                                shape: "spline",
+                                dash: "dashdot"
+                            },
+                            marker: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["max"] }}',
+                                size: 12
+                            }
+                        },
+                        {
+                            x: [
+                                {% for x in chart["dataset"]["layouts"]["data"]["x"] %}
+                                    "{{ x }}",
+                                {% endfor %}
+                            ],
+                            y: [
+                                {% for y in chart["dataset"]["layouts"]["data"]["y"]["avg"] %}
+                                    "{{ y }}",
+                                {% endfor %}
+                            ],
+                            type: 'bar',
+                            name: 'Avg',
+                            line: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["avg"] }}',
+                                width: 3,
+                                shape: "spline",
+                                dash: "dashdot"
+                            },
+                            marker: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["colors"]["avg"] }}',
+                                size: 12
+                            }
+                        }
+                    ];
+                {% else %}
+                    data = [
+                        {
+                            x: [
+                                {% for x in chart["dataset"]["layouts"]["data"]["x"] %}
+                                    "{{ x }}",
+                                {% endfor %}
+                            ],
+                            y: [
+                                {% for y in chart["dataset"]["layouts"]["data"]["y"] %}
+                                    "{{ y }}",
+                                {% endfor %}
+                            ],
+                            type: 'bar',
+                            name: '{{ chart["dataset"]["layouts"]["y-axis"]["title"] }}',
+                            line: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["color"] }}',
+                                width: 3,
+                                shape: "spline",
+                                dash: "dashdot"
+                            },
+                            marker: {
+                                color: '{{ chart["dataset"]["layouts"]["y-axis"]["color"] }}',
+                                size: 12
+                            }
+                        }
+                    ];
+                {% endif %}
+            {% endif %}
+            var layout = {
+                title: '{{ chart["dataset"]["caption"] }}',
+                titlefont: {
+                    size: 36,
+                    color: 'rgb(107, 107, 107)'
+                },
+                xaxis: {
+                    title: '{{ chart["dataset"]["layouts"]["x-axis"]["title"] }}',
+                    titlefont: {
+                        size: 25,
+                        color: 'rgb(107, 107, 107)'
+                    },
+                    tickfont: {
+                        size: 15,
+                        color: 'rgb(107, 107, 107)'
+                    }
+                    //range: ['{{ chart["dataset"]["layouts"]["x-axis"]["min"] }}', '{{ chart["dataset"]["layouts"]["x-axis"]["max"] }}'],
+                    //autorange: false
+                },
+                yaxis: {
+                    title: '{{ chart["dataset"]["layouts"]["y-axis"]["title"] }}',
+                    titlefont: {
+                        size: 25,
+                        color: 'rgb(107, 107, 107)'
+                    },
+                    tickfont: {
+                        size: 15,
+                        color: 'rgb(107, 107, 107)'
+                    }
+                }
+            };
+            Plotly.newPlot('plot', data, layout);
+        {% endif %}
+    </script>
+{% endblock %}

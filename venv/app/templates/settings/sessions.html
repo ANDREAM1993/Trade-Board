@@ -1,0 +1,46 @@
+{% extends '/settings/settings.html' %}
+{% block head %}
+    <title>{{ table|capitalize }} Management</title>
+{% endblock %}
+{% block settings_page %}
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{{ table|capitalize }} Settings</h4>
+        </div>
+        <table class="table table-bordered text-center">
+            <thead>
+                <tr>
+                    <td>Connection</td>
+                    {% for column in settings["fields"] %}
+                        {% if column["Field"] in  ("id", "comments") %}
+                        {% else %}
+                            <td>{{ column["Field"]|capitalize }}</td>
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="{{settings[table][0]|length}}">
+                        <button type="button" class="btn btn-danger mdi mdi-lan-disconnect" onclick="window.location.href='/settings/update/sessions/-/-/-/-'"></button>
+                    </td>
+                </tr>
+                {% for session in settings[table] %}
+                    <tr>
+                        <td>
+                            <button type="button" class="btn btn-danger mdi mdi-lan-disconnect" onclick="window.location.href='/settings/update/sessions/-/-/id/{{ session['id'] }}'"></button>
+                        </td>
+                        {% for column in settings["fields"] %}
+                            {% if column["Field"] in ("id", "comments") %}
+                            {% else %}
+                                <td>
+                                    <input type="text" class="form-control" name="{{ column['Field'] }}" value="{{ session[column["Field"]] }}" disabled>
+                                </td>
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

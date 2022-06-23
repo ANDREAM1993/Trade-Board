@@ -1,0 +1,130 @@
+2022-06-05 11:59:07,663 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-05 11:59:07,664 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 11:59:08,294 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 11:59:08,298 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 11:59:24,243 INFO werkzeug Thread-2 : 127.0.0.1 - - [05/Jun/2022 11:59:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-06-05 11:59:24,303 INFO werkzeug Thread-3 : 127.0.0.1 - - [05/Jun/2022 11:59:24] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-06-05 11:59:24,306 INFO werkzeug Thread-4 : 127.0.0.1 - - [05/Jun/2022 11:59:24] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-06-05 11:59:24,374 INFO werkzeug Thread-5 : 127.0.0.1 - - [05/Jun/2022 11:59:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-05 12:00:09,686 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-05 12:00:09,744 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:00:10,453 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 12:00:10,459 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 12:00:12,435 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-05 12:00:12,436 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:00:13,082 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 12:00:13,088 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 12:00:14,971 INFO werkzeug Thread-2 : 127.0.0.1 - - [05/Jun/2022 12:00:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-06-05 12:00:15,014 INFO werkzeug Thread-3 : 127.0.0.1 - - [05/Jun/2022 12:00:15] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-06-05 12:00:15,017 INFO werkzeug Thread-4 : 127.0.0.1 - - [05/Jun/2022 12:00:15] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-06-05 12:00:15,037 INFO werkzeug Thread-5 : 127.0.0.1 - - [05/Jun/2022 12:00:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-05 12:00:25,155 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-05 12:00:25,194 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:00:32,954 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-05 12:00:32,955 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:00:33,365 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 12:00:33,372 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 12:00:36,295 INFO werkzeug Thread-2 : 127.0.0.1 - - [05/Jun/2022 12:00:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-06-05 12:00:36,319 INFO werkzeug Thread-3 : 127.0.0.1 - - [05/Jun/2022 12:00:36] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-06-05 12:00:36,321 INFO werkzeug Thread-4 : 127.0.0.1 - - [05/Jun/2022 12:00:36] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-06-05 12:00:36,363 INFO werkzeug Thread-5 : 127.0.0.1 - - [05/Jun/2022 12:00:36] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-05 12:00:52,501 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-05 12:00:52,543 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:01:05,510 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-05 12:01:05,510 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:01:06,125 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 12:01:06,131 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 12:01:06,996 INFO werkzeug Thread-2 : 127.0.0.1 - - [05/Jun/2022 12:01:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-06-05 12:01:07,034 INFO werkzeug Thread-3 : 127.0.0.1 - - [05/Jun/2022 12:01:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-06-05 12:01:07,035 INFO werkzeug Thread-4 : 127.0.0.1 - - [05/Jun/2022 12:01:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-06-05 12:01:07,058 INFO werkzeug Thread-5 : 127.0.0.1 - - [05/Jun/2022 12:01:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-06-05 12:01:23,248 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-05 12:01:23,296 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:02:11,384 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-05 12:02:11,385 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:02:11,867 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 12:02:11,873 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 12:02:12,816 INFO app.main Thread-2 : /; view_dashboard; Database Error; Unknown Error with Session Token
+2022-06-05 12:02:12,822 INFO werkzeug Thread-2 : 127.0.0.1 - - [05/Jun/2022 12:02:12] "[32mGET / HTTP/1.1[0m" 302 -
+2022-06-05 12:02:12,909 INFO werkzeug Thread-3 : 127.0.0.1 - - [05/Jun/2022 12:02:12] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-05 12:02:12,964 INFO werkzeug Thread-4 : 127.0.0.1 - - [05/Jun/2022 12:02:12] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:02:12,969 INFO werkzeug Thread-6 : 127.0.0.1 - - [05/Jun/2022 12:02:12] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:02:12,969 INFO werkzeug Thread-5 : 127.0.0.1 - - [05/Jun/2022 12:02:12] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:02:12,970 INFO werkzeug Thread-7 : 127.0.0.1 - - [05/Jun/2022 12:02:12] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:02:12,973 INFO werkzeug Thread-8 : 127.0.0.1 - - [05/Jun/2022 12:02:12] "GET /static/assets/images/logo.png HTTP/1.1" 200 -
+2022-06-05 12:02:12,991 INFO werkzeug Thread-9 : 127.0.0.1 - - [05/Jun/2022 12:02:12] "GET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1" 200 -
+2022-06-05 12:02:12,992 INFO werkzeug Thread-11 : 127.0.0.1 - - [05/Jun/2022 12:02:12] "GET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1" 200 -
+2022-06-05 12:02:12,993 INFO werkzeug Thread-10 : 127.0.0.1 - - [05/Jun/2022 12:02:12] "GET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1" 200 -
+2022-06-05 12:02:13,444 INFO werkzeug Thread-12 : 127.0.0.1 - - [05/Jun/2022 12:02:13] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2022-06-05 12:02:13,447 INFO werkzeug Thread-13 : 127.0.0.1 - - [05/Jun/2022 12:02:13] "[36mGET /static/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2 HTTP/1.1[0m" 304 -
+2022-06-05 12:03:43,509 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-05 12:03:43,542 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:03:44,028 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 12:03:44,035 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 12:03:45,042 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-05 12:03:45,072 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:03:45,664 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 12:03:45,670 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 12:03:46,680 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-05 12:03:46,719 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:04:31,744 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-06-05 12:04:31,745 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 12:04:32,391 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 12:04:32,397 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 12:04:34,597 INFO werkzeug Thread-2 : 127.0.0.1 - - [05/Jun/2022 12:04:34] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-05 12:04:34,623 INFO werkzeug Thread-3 : 127.0.0.1 - - [05/Jun/2022 12:04:34] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:04:34,625 INFO werkzeug Thread-4 : 127.0.0.1 - - [05/Jun/2022 12:04:34] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:04:34,631 INFO werkzeug Thread-5 : 127.0.0.1 - - [05/Jun/2022 12:04:34] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:04:34,632 INFO werkzeug Thread-6 : 127.0.0.1 - - [05/Jun/2022 12:04:34] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:04:34,641 INFO werkzeug Thread-7 : 127.0.0.1 - - [05/Jun/2022 12:04:34] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-05 12:04:34,642 INFO werkzeug Thread-8 : 127.0.0.1 - - [05/Jun/2022 12:04:34] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-05 12:04:34,644 INFO werkzeug Thread-9 : 127.0.0.1 - - [05/Jun/2022 12:04:34] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:04:34,668 INFO werkzeug Thread-10 : 127.0.0.1 - - [05/Jun/2022 12:04:34] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-05 12:04:35,868 INFO werkzeug Thread-11 : 127.0.0.1 - - [05/Jun/2022 12:04:35] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-05 12:04:35,895 INFO werkzeug Thread-12 : 127.0.0.1 - - [05/Jun/2022 12:04:35] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:04:35,898 INFO werkzeug Thread-13 : 127.0.0.1 - - [05/Jun/2022 12:04:35] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:04:35,900 INFO werkzeug Thread-14 : 127.0.0.1 - - [05/Jun/2022 12:04:35] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:04:35,900 INFO werkzeug Thread-15 : 127.0.0.1 - - [05/Jun/2022 12:04:35] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:04:35,906 INFO werkzeug Thread-16 : 127.0.0.1 - - [05/Jun/2022 12:04:35] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-05 12:04:35,908 INFO werkzeug Thread-17 : 127.0.0.1 - - [05/Jun/2022 12:04:35] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-05 12:04:35,909 INFO werkzeug Thread-18 : 127.0.0.1 - - [05/Jun/2022 12:04:35] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:04:35,928 INFO werkzeug Thread-19 : 127.0.0.1 - - [05/Jun/2022 12:04:35] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-05 12:05:08,729 INFO werkzeug Thread-20 : 127.0.0.1 - - [05/Jun/2022 12:05:08] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-05 12:05:08,749 INFO werkzeug Thread-21 : 127.0.0.1 - - [05/Jun/2022 12:05:08] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:08,749 INFO werkzeug Thread-22 : 127.0.0.1 - - [05/Jun/2022 12:05:08] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:05:08,752 INFO werkzeug Thread-23 : 127.0.0.1 - - [05/Jun/2022 12:05:08] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:05:08,752 INFO werkzeug Thread-24 : 127.0.0.1 - - [05/Jun/2022 12:05:08] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:05:08,759 INFO werkzeug Thread-25 : 127.0.0.1 - - [05/Jun/2022 12:05:08] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:08,762 INFO werkzeug Thread-26 : 127.0.0.1 - - [05/Jun/2022 12:05:08] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:08,764 INFO werkzeug Thread-27 : 127.0.0.1 - - [05/Jun/2022 12:05:08] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:08,785 INFO werkzeug Thread-28 : 127.0.0.1 - - [05/Jun/2022 12:05:08] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-05 12:05:14,031 INFO werkzeug Thread-29 : 127.0.0.1 - - [05/Jun/2022 12:05:14] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-05 12:05:14,054 INFO werkzeug Thread-30 : 127.0.0.1 - - [05/Jun/2022 12:05:14] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:14,055 INFO werkzeug Thread-31 : 127.0.0.1 - - [05/Jun/2022 12:05:14] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:05:14,057 INFO werkzeug Thread-32 : 127.0.0.1 - - [05/Jun/2022 12:05:14] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:05:14,058 INFO werkzeug Thread-33 : 127.0.0.1 - - [05/Jun/2022 12:05:14] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:05:14,064 INFO werkzeug Thread-34 : 127.0.0.1 - - [05/Jun/2022 12:05:14] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:14,067 INFO werkzeug Thread-35 : 127.0.0.1 - - [05/Jun/2022 12:05:14] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:14,067 INFO werkzeug Thread-36 : 127.0.0.1 - - [05/Jun/2022 12:05:14] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:14,088 INFO werkzeug Thread-37 : 127.0.0.1 - - [05/Jun/2022 12:05:14] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-05 12:05:30,936 INFO app.main Thread-38 : 127.0.0.1; /; view_dashboard; Database Error; Unknown Error with Session Token
+2022-06-05 12:05:30,937 INFO werkzeug Thread-38 : 127.0.0.1 - - [05/Jun/2022 12:05:30] "[32mGET / HTTP/1.1[0m" 302 -
+2022-06-05 12:05:30,945 INFO werkzeug Thread-39 : 127.0.0.1 - - [05/Jun/2022 12:05:30] "GET /authentication/login HTTP/1.1" 200 -
+2022-06-05 12:05:30,974 INFO werkzeug Thread-40 : 127.0.0.1 - - [05/Jun/2022 12:05:30] "[36mGET /static/dist/css/style.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:30,976 INFO werkzeug Thread-41 : 127.0.0.1 - - [05/Jun/2022 12:05:30] "[36mGET /static/assets/libs/jquery/dist/jquery.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:05:30,978 INFO werkzeug Thread-42 : 127.0.0.1 - - [05/Jun/2022 12:05:30] "[36mGET /static/assets/libs/popper.js/dist/umd/popper.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:05:30,980 INFO werkzeug Thread-43 : 127.0.0.1 - - [05/Jun/2022 12:05:30] "[36mGET /static/assets/libs/bootstrap/dist/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-06-05 12:05:30,989 INFO werkzeug Thread-44 : 127.0.0.1 - - [05/Jun/2022 12:05:30] "[36mGET /static/dist/css/icons/font-awesome/css/fontawesome-all.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:30,989 INFO werkzeug Thread-45 : 127.0.0.1 - - [05/Jun/2022 12:05:30] "[36mGET /static/dist/css/icons/themify-icons/themify-icons.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:30,991 INFO werkzeug Thread-46 : 127.0.0.1 - - [05/Jun/2022 12:05:30] "[36mGET /static/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css HTTP/1.1[0m" 304 -
+2022-06-05 12:05:31,017 INFO werkzeug Thread-47 : 127.0.0.1 - - [05/Jun/2022 12:05:31] "[36mGET /static/assets/images/logo.png HTTP/1.1[0m" 304 -
+2022-06-05 18:24:18,927 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-05 18:24:18,991 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 18:24:19,589 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 18:24:19,595 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 18:24:22,617 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-05 18:24:22,673 INFO werkzeug MainThread :  * Restarting with stat
+2022-06-05 18:24:23,404 WARNING werkzeug MainThread :  * Debugger is active!
+2022-06-05 18:24:23,410 INFO werkzeug MainThread :  * Debugger PIN: 122-226-120
+2022-06-05 18:24:40,485 INFO werkzeug MainThread :  * Detected change in '/home/developer/own/lera/venv/app/main.py', reloading
+2022-06-05 18:24:40,545 INFO werkzeug MainThread :  * Restarting with stat

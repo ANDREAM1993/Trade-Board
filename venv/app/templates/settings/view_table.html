@@ -1,0 +1,64 @@
+{% extends '/settings/settings.html' %}
+{% block head %}
+    <title>{{ table|capitalize }} Management</title>
+{% endblock %}
+{% block settings_page %}
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{{ table|capitalize }} Settings</h4>
+        </div>
+        <table class="table table-bordered text-center col-12">
+            <thead>
+                <th>Columns</th>
+                <th>Visibility</th>
+                <th>Ordering</th>
+                <th>Sorting</th>
+            </thead>
+            <tbody>
+                {% for column in settings["fields"] %}
+                    <tr class="col-12">
+                        {% if column['Field'] == "options" %}
+                        {% else %}
+                        <td class="col-3">
+                            {{column["Field"]|capitalize}}
+                        </td>
+                        <td class=="col-3">
+                            <select class="form-control" onchange="settings_update('view_table','{{ column['Field'] }}',this.value,'options','visibility')">
+                                {% for mode in settings["support"]["visibility"] %}
+                                    {% if mode["variable"] == settings[table]["visibility"][column["Field"]] %}
+                                        <option value="{{mode['variable']}}" selected>{{ mode["title"] }}</option>
+                                    {% else %}
+                                        <option value="{{mode['variable']}}">{{ mode["title"] }}</option>
+                                    {% endif %}
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <td class=="col-3">
+                            <select class="form-control" onchange="settings_update('view_table','{{ column['Field'] }}',this.value,'options','order')">
+                                {% for index in settings["support"]["order"] %}
+                                    {% if index == settings[table]["order"][column["Field"]]|int %}
+                                        <option value="{{ index }}" selected>{{ index }}</option>
+                                    {% else %}
+                                        <option value="{{ index }}">{{ index }}</option>
+                                    {% endif %}
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <td class=="col-3">
+                            <select class="form-control" onchange="settings_update('view_table','{{ column['Field'] }}',this.value,'options','sort')">
+                                {% for mode in settings["support"]["sort"] %}
+                                    {% if mode["id"] == settings[table]["sort"][column["Field"]]|int %}
+                                        <option value="{{mode['id']}}" selected>{{ mode["title"] }}</option>
+                                    {% else %}
+                                        <option value="{{mode['id']}}">{{ mode["title"] }}</option>
+                                    {% endif %}
+                                {% endfor %}
+                            </select>
+                        </td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

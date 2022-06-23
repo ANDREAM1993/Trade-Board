@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>Sign In Page</title>
+{% endblock %}
+{% block header %}{% endblock %}
+{% block content %}
+    <div class="auth-wrapper d-flex no-block justify-content-center align-items-center bg-dark">
+        <div class="auth-box bg-dark border-top border-secondary">
+            <div>
+                <div class="text-center p-t-20 p-b-20">
+                    <span class="db">
+                        <img src="{{ url_for('static', filename='assets/images/logo.png') }}" alt="logo">
+                    </span>
+                </div>
+                <form class="form-horizontal m-t-20" id="loginform" method="POST" action="/authentication/login/send">
+                    <div class="row p-b-30">
+                        <div class="col-12">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-success text-white" id="basic-addon1">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                                <input name="username" type="text" class="form-control form-control-lg" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-warning text-white" id="basic-addon2">
+                                        <i class="fas fa-key"></i>
+                                    </span>
+                                </div>
+                                <input name="password" type="password" class="form-control form-control-lg" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top border-secondary">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <div class="p-t-20">
+                                    <button class="btn btn-danger" id="authentication-signup" type="button">
+                                        <i class="fas fa-user-plus m-r-5"></i>
+                                        Sign Up
+                                    </button>
+                                    <button class="btn btn-info float-right" type="submit">
+                                        <i class="far fa-arrow-alt-circle-right m-r-5"></i>
+                                        Sign In
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block footer %}{% endblock %}
+{% block scripts %}
+    <script>
+        $('#authentication-signup').on("click", function() {
+            window.location.href="/authentication/signup";
+        })
+    </script>
+{% endblock %}
